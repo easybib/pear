@@ -6,10 +6,10 @@
     <servers>
         <primary>
             <rest>
-                <baseurl type="REST1.0">http://easybib.github.com/pear/rest/</baseurl>
-                <baseurl type="REST1.1">http://easybib.github.com/pear/rest/</baseurl>
-                <baseurl type="REST1.2">http://easybib.github.com/pear/rest/</baseurl>
-                <baseurl type="REST1.3">http://easybib.github.com/pear/rest/</baseurl>
+                <baseurl type="REST1.0">https://easybib.github.com/pear/rest/</baseurl>
+                <baseurl type="REST1.1">https://easybib.github.com/pear/rest/</baseurl>
+                <baseurl type="REST1.2">https://easybib.github.com/pear/rest/</baseurl>
+                <baseurl type="REST1.3">https://easybib.github.com/pear/rest/</baseurl>
             </rest>
         </primary>
     </servers>
