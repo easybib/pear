@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>EasyBib_Form_Decorator</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>A set of decorators for Zend_Form</summary>
+ <description>EasyBib_Form Decorator supports three modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+The default is Twitter Bootstrap.</description>
+ <lead>
+  <name>Michael Scholl</name>
+  <user>mischosch</user>
+  <email>michael@sch0ll.de</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@lagged.biz</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-09-14</date>
+ <time>18:31:48</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+Initial release (with small bugfix)
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="1fd27d4c394d11e262a9d6d603a3e528" name="docs/ExampleController.php" role="doc" />
+   <file baseinstalldir="/" md5sum="afe45b95f48d75ba5ff16d894a316df3" name="docs/ExampleForm.php" role="doc" />
+   <file baseinstalldir="/" md5sum="2ac7abd4dcaaaef0725fb035afeeef75" name="library/EasyBib/Form/Decorator/BootstrapErrors.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0a598225871ca450590c1c61b02768ff" name="library/EasyBib/Form/Decorator/BootstrapTag.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2ed564311295e6c8c7c56f77b83809cc" name="library/EasyBib/Form/Decorator.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d4a81648b96c0d122444a6bca8b9cb5c" name="library/EasyBib/View/Helper/MessagesFormatter.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="76fc8aa999d04125761ef0e7c00ec7b6" name="library/EasyBib/Form.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c9bf06512f8c1d7479185a02dd802b53" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a7</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>ZF</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.10.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="EasyBib/Form/Decorator/BootstrapErrors.php" name="library/EasyBib/Form/Decorator/BootstrapErrors.php" />
+   <install as="EasyBib/Form/Decorator/BootstrapTag.php" name="library/EasyBib/Form/Decorator/BootstrapTag.php" />
+   <install as="EasyBib/Form/Decorator.php" name="library/EasyBib/Form/Decorator.php" />
+   <install as="EasyBib/Form.php" name="library/EasyBib/Form.php" />
+   <install as="EasyBib/View/Helper/MessagesFormatter.php" name="library/EasyBib/View/Helper/MessagesFormatter.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Initial release (with small bugfix)
+   </notes>
+  </release>
+ </changelog>
+</package>
