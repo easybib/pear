@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2011-09-14T18:32:16+02:00</updated>
+    <updated>2011-09-14T21:17:03+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,22 @@
     </author>
 
     <entry>
+        <title>EasyBib_Form_Decorator 0.1.2 (alpha)</title>
+        <link href="http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.1.2.tgz" />
+        <id>http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.1.2.tgz</id>
+        <author>
+            <name>mischosch</name>
+        </author>
+        <updated>2011-09-14T21:15:03+02:00</updated>
+        <content>
+            EasyBib_Form Decorator supports three modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+The default is Twitter Bootstrap.
+        </content>
+    </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.1 (alpha)</title>
         <link href="http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.1.1.tgz" />
         <id>http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.1.1.tgz</id>
