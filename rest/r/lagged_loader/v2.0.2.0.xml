@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/lagged_loader">Lagged_Loader</p>
+    <c>easybib.github.com/pear</c>
+    <v>0.2.0</v>
+    <a>0.2.0</a>
+    <mp>5.2.0</mp>
+    <st>alpha</st>
+    <l>BSD</l>
+    <m>till</m>
+    <s>A better autoloader for the Zend_Framework.</s>
+    <d>A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader</d>
+    <da>2011-09-28 12:52:45</da>
+    <n>
+Initial release. (just fixing PEAR version to match tag on github)
+ </n>
+    <f>7214</f>
+    <g>http://easybib.github.com/pear/get/Lagged_Loader-0.2.0</g>
+    <x xlink:href="package.0.2.0.xml"/>
+</r>
