@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Lagged_Loader</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>A better autoloader for the Zend_Framework.</summary>
+ <description>A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader</description>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@lagged.biz</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Michael Scholl</name>
+  <user>mischosch</user>
+  <email>michael@sch0ll.de</email>
+  <active>yes</active>
+ </developer>
+ <date>2011-10-06</date>
+ <time>23:35:47</time>
+ <version>
+  <release>0.5.0</release>
+  <api>0.5.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>
+* support Service_Foo and Module_Service_Foo 
+ * silence warnings
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="04dfce1f8a8f93d060545586af4c0a94" name="src/Lagged/LibraryLoader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+    <tasks:replace from="@php_dir@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2592d8438eadc4d38acec3266be06d48" name="src/Lagged/Loader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+    <tasks:replace from="@php_dir@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1e0fca06dbe0144499c26218384c09d7" name="src/Lagged/PEARLoader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+    <tasks:replace from="@php_dir@" to="php_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ebe7e07b255b885db834f91ee80e2fd0" name="tests/Lagged/LibraryLoader/LibraryLoader.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="1dba8171cb64cbe025b3bf3cacaeb73c" name="tests/Lagged/LibraryLoader/LibraryLoaderTestSuite.php" role="test" />
+   <file baseinstalldir="/" md5sum="b72e9364ae44a6be43a5e64e4781ca1f" name="tests/Lagged/Loader/loadClass-controller-module.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="437c6dafa4c3147c3ca4adb671ada628" name="tests/Lagged/Loader/loadClass-controller.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="f771c134f1be925892f5a25037d9df54" name="tests/Lagged/Loader/loadClass-form-module.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="b99553885696c8aceb736fb464e21871" name="tests/Lagged/Loader/loadClass-form.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="a9df8eb8b407db462c175afef0f7c406" name="tests/Lagged/Loader/loadClass-library-namespace.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="c009d95db952f875f9806451b3c2f6d1" name="tests/Lagged/Loader/loadClass-library-static-no-constant.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="637fdc55b7ccc0055952d4d337ddfdbb" name="tests/Lagged/Loader/loadClass-library-static.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="3c2a84a212ba195df748b324abab0ca6" name="tests/Lagged/Loader/loadClass-library.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="b27b726b281bdac380339e14c8839aa6" name="tests/Lagged/Loader/loadClass-model-module.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="3a0bfba2981a35bbda76e7bfa11b085e" name="tests/Lagged/Loader/loadClass-model.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="42777490d61cb8e330a2abc55b06a595" name="tests/Lagged/Loader/loadClass-service-module.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="86111b72e3657fa698d64db996e75177" name="tests/Lagged/Loader/loadClass-service.phpt" role="test" />
+   <file baseinstalldir="/" md5sum="e52aa7e450ebee95f438478829363b0b" name="tests/Lagged/Loader/TestSuite.php" role="test" />
+   <file baseinstalldir="/" md5sum="b00d990b9ec5aec577519aed0fcc5132" name="tests/phpunit.xml" role="test" />
+   <file baseinstalldir="/" md5sum="3d76d29e83b48f02cf30ddfd2fb95bf5" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a7</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>ZF</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.10.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="Lagged/LibraryLoader.php" name="src/Lagged/LibraryLoader.php" />
+   <install as="Lagged/Loader.php" name="src/Lagged/Loader.php" />
+   <install as="Lagged/PEARLoader.php" name="src/Lagged/PEARLoader.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Initial release. (just fixing PEAR version to match tag on github)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+* small bugfixes in the loader code (play nice with the autoloader chain)
+ * load forms (from modules)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+* added Lagged_PEARLoader (simple, lean autoloader for PEAR)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.1</release>
+    <api>0.4.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+* bugfix in Lagged_LibraryLoader: when supplied via __construct(), appDir was not set 
+ * bugfix in Lagged_LibraryLoader: app dir was assuming it contained &apos;app&apos;
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-10-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+* support Service_Foo and Module_Service_Foo 
+ * silence warnings
+   </notes>
+  </release>
+ </changelog>
+</package>
