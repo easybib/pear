@@ -18,6 +18,10 @@ The default is Twitter Bootstrap.</d>
 
         <a>
             <r>
+                <v>0.1.4</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.1.3</v>
                 <s>alpha</s>
             </r>
@@ -36,6 +40,10 @@ The default is Twitter Bootstrap.</d>
 
         </a>
 
+        <deps>
+            <v>0.1.4</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0a7";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:2:"ZF";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:6:"1.10.0";}}}</d>
+        </deps>
         <deps>
             <v>0.1.3</v>
             <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0a7";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:2:"ZF";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:6:"1.10.0";}}}</d>
