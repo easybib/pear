@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/easybib_form_decorator">EasyBib_Form_Decorator</p>
+    <c>easybib.github.com/pear</c>
+    <v>0.1.7</v>
+    <a>0.1.7</a>
+    <mp>5.2.0</mp>
+    <st>alpha</st>
+    <l>MIT</l>
+    <m>mischosch</m>
+    <s>A set of decorators for Zend_Form</s>
+    <d>EasyBib_Form Decorator supports three modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+The default is Twitter Bootstrap.</d>
+    <da>2011-10-28 01:15:36</da>
+    <n>
+Multi Decorator usage for radio buttons
+ </n>
+    <f>7538</f>
+    <g>http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.1.7</g>
+    <x xlink:href="package.0.1.7.xml"/>
+</r>
