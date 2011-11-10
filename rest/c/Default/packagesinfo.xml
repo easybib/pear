@@ -150,5 +150,34 @@ http://github.com/lagged/Lagged_loader</d>
             <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0a7";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:2:"ZF";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:6:"1.10.0";}}}</d>
         </deps>
 
+    </pi>    <pi>
+        <p>
+            <n>Rediska</n>
+            <c>easybib.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>Rediska (radish in Russian) - PHP client for Redis.</s>
+            <d>Redis is an advanced fast key-value database written in C. It can be used like memcached, in front of a traditional 
+database, or on its own thanks to the fact that the in-memory datasets are not volatile but instead persisted on disk. 
+One of the cool features is that you can store not only strings, but lists and sets with atomic operations to push/pop 
+elements.
+
+More information and documentation on homepage: http://rediska.geometria-lab.net</d>
+            <r xlink:href="/rest/r/rediska" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.5.6</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.5.6</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}}s:8:"optional";a:1:{s:7:"package";a:4:{s:4:"name";s:2:"zf";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:6:"1.10.2";s:11:"recommended";s:1:"1";}}}</d>
+        </deps>
+
     </pi>
 </f>
