@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.0" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Rediska</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>Rediska (radish in Russian) - PHP client for Redis.</summary>
+ <description>Redis is an advanced fast key-value database written in C. It can be used like memcached, in front of a traditional 
+database, or on its own thanks to the fact that the in-memory datasets are not volatile but instead persisted on disk. 
+One of the cool features is that you can store not only strings, but lists and sets with atomic operations to push/pop 
+elements.
+
+More information and documentation on homepage: http://rediska.geometria-lab.net</description>
+ <lead>
+  <name>Ivan Shumkov</name>
+  <user>shumkov</user>
+  <email>ivan@shumkov.ru</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Maxim Ivanov</name>
+  <user>ivanov</user>
+  <email>maximiv@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Ryan Grenz</name>
+  <user>ryangrenz</user>
+  <email>info@ryangrenz.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@php.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2011-04-13</date>
+ <time>12:57:05</time>
+ <version>
+  <release>0.5.6</release>
+  <api>0.5.6</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+This is an beta release, see README.markdown for examples.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="0db9e5f70485aee7f7efdd940659dd41" name="benchmarks/keydistributors.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="7263ed9bb696e4106010b6db90af9418" name="examples/retwitter/application/configs/application.ini" role="doc"/>
+   <file baseinstalldir="/" md5sum="671e740042b0fc94be4298035781aec2" name="examples/retwitter/application/controllers/ErrorController.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="04855047931035e6efba315df7f4935a" name="examples/retwitter/application/controllers/IndexController.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="e0b08fc17e97b4980c775fc23b970e8b" name="examples/retwitter/application/controllers/PostController.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="2cf8ea46aea0b97c2f6e2f8666054c0a" name="examples/retwitter/application/controllers/UserController.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="3208bea3b1e395fbffedd95e5da88371" name="examples/retwitter/application/forms/Post.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="ea424f1202475d4094a54999f56a28bb" name="examples/retwitter/application/forms/User.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="0184860511076dd18f85b33d5fea81b8" name="examples/retwitter/application/forms/UserLogin.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="bdc935c20eaa85429823a6db6279a461" name="examples/retwitter/application/models/Feed.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="c167613ab64530c809e66f48c443b577" name="examples/retwitter/application/models/Followers.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="f22073c662acf9a3d1ba37f426f9172b" name="examples/retwitter/application/models/Following.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="911344d17fb1ab00a3d7cd0c0d652de8" name="examples/retwitter/application/models/Post.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="d1a80373c18878b8da041e430cbfdf08" name="examples/retwitter/application/models/User.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="848e8864bf2d6952c84c3991ba882662" name="examples/retwitter/application/models/UserPosts.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="07bedd06456a7ef0429d2658aebb0b47" name="examples/retwitter/application/models/Users.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="1dfd7c7c1b8ec67691884988548638a0" name="examples/retwitter/application/views/layouts/default.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="9cdfc06058fab182238af9efb24d018b" name="examples/retwitter/application/views/scripts/error/error.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="c75196bc2d5d1040a5bfe2cd5bac5a63" name="examples/retwitter/application/views/scripts/post/index.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="c48f286891a8eb8df3b6ec8fe5f1d9c8" name="examples/retwitter/application/views/scripts/post/my.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="ed5bf8f97253cf24a13f9c86cc3b5650" name="examples/retwitter/application/views/scripts/post/new.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="9bc0802f103104a5192ed981e88a3789" name="examples/retwitter/application/views/scripts/post/_list.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="864ef3a451ec4fca7615d5cbc4c7c062" name="examples/retwitter/application/views/scripts/user/followers.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="3456e281a545c030064b62f9e48d049d" name="examples/retwitter/application/views/scripts/user/index.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="3fdb42c7e9a48e86dbc2628ca921a93c" name="examples/retwitter/application/views/scripts/user/login.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="77014516899b0973c88cc92e326c8778" name="examples/retwitter/application/views/scripts/user/signup.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="3c211514dfaa06e3ebf344f778d566a2" name="examples/retwitter/application/views/scripts/user/_list.phtml" role="doc"/>
+   <file baseinstalldir="/" md5sum="9dac8ee684e24d813d1fd6e7d8b2f5c1" name="examples/retwitter/application/Bootstrap.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="54476573a6b5e84bfbfa3e4bcd7bc456" name="examples/retwitter/docs/README.txt" role="doc"/>
+   <file baseinstalldir="/" md5sum="f34b8318334222bbc531d4d19e29ef6d" name="examples/retwitter/public/index.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="examples/retwitter/tests/application/bootstrap.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="examples/retwitter/tests/library/bootstrap.php" role="doc"/>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="examples/retwitter/tests/phpunit.xml" role="doc"/>
+   <file baseinstalldir="/" md5sum="b027e06d327633130c4f7a4425ac0e2e" name="examples/retwitter/README.txt" role="doc"/>
+   <file baseinstalldir="/" md5sum="dc5432d33c2c0bf44e735155ba7bcaa3" name="library/Rediska/Command/GetSortedSet/WithScoresIterator.php" role="php"/>
+   <file baseinstalldir="/" md5sum="cb858248f19f6c2992599119257f1dfa" name="library/Rediska/Command/Response/ListNameAndValue.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9e308f2b6ea1f80903f04b013d22da1f" name="library/Rediska/Command/Response/ValueAndScore.php" role="php"/>
+   <file baseinstalldir="/" md5sum="89674dbda933e9ca3216a03c11c8ecfc" name="library/Rediska/Command/Abstract.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9b7574a1d505f55ecf4ba56a4cbcd554" name="library/Rediska/Command/AddToSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="1732c78677e66859d23f7c3572c02a04" name="library/Rediska/Command/AddToSortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="05a074d96d7fca02be56635be7260f2f" name="library/Rediska/Command/Append.php" role="php"/>
+   <file baseinstalldir="/" md5sum="03b2922e9e4dc211a7489a8a0a77c490" name="library/Rediska/Command/AppendToList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ad70d7493f11deb8209b05150870c2ab" name="library/Rediska/Command/CompareSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="441ffd89f480535c2249577f5ceba30d" name="library/Rediska/Command/CompareSortedSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="0bdcd826d717a1c2f112b7c2095dbebe" name="library/Rediska/Command/Decrement.php" role="php"/>
+   <file baseinstalldir="/" md5sum="3afa2eab8ea610bb9bd443483d18a784" name="library/Rediska/Command/Delete.php" role="php"/>
+   <file baseinstalldir="/" md5sum="3ef4299e669cadf71c05d9a69b3a724f" name="library/Rediska/Command/DeleteFromHash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="069df737292c2d4b9cfe4800e39b5ef8" name="library/Rediska/Command/DeleteFromList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="dfbabfe60342bb967562f566b0951d9d" name="library/Rediska/Command/DeleteFromSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5f3389a88c579f4fb0274141c17b6413" name="library/Rediska/Command/DeleteFromSortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="51f4babef07c9a2d6f65fafa49a9770e" name="library/Rediska/Command/DeleteFromSortedSetByRank.php" role="php"/>
+   <file baseinstalldir="/" md5sum="d3cb2c3aa80ca61b30c7be401d71c9da" name="library/Rediska/Command/DeleteFromSortedSetByScore.php" role="php"/>
+   <file baseinstalldir="/" md5sum="69b1f95a157a8c73d07e1080ce19b437" name="library/Rediska/Command/DiffSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="7fefddc394a893be09313a49b6814b89" name="library/Rediska/Command/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="d319c75d57a36cc984c0bb05317d7eca" name="library/Rediska/Command/Exists.php" role="php"/>
+   <file baseinstalldir="/" md5sum="3c49308ef787a5382671cd1b0eb261c0" name="library/Rediska/Command/ExistsInHash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="90101cfe835aba2054c7c3203ca7cca1" name="library/Rediska/Command/ExistsInSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="3c8284d1919002a6b0abb794e8b1a30c" name="library/Rediska/Command/Expire.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ff7913a3f228a22df55142f6af3e2f21" name="library/Rediska/Command/FlushDb.php" role="php"/>
+   <file baseinstalldir="/" md5sum="00afc4e6372b031e370d631969ac9b9b" name="library/Rediska/Command/Get.php" role="php"/>
+   <file baseinstalldir="/" md5sum="a191adf25b3798a68bceb76aae8ba6b3" name="library/Rediska/Command/GetBit.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5e5005b6cbaf43d1828177784e4e6db9" name="library/Rediska/Command/GetFromHash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="bc5bdbb9c8c462f8ae052f58bce73231" name="library/Rediska/Command/GetFromList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5a8a4dacc0c1d2715a412401b6c7812c" name="library/Rediska/Command/GetFromSortedSetByScore.php" role="php"/>
+   <file baseinstalldir="/" md5sum="bf27f0bcb06653c0b215365f927712e3" name="library/Rediska/Command/GetHash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="4323f24eb35300be386e7fd53d8c128a" name="library/Rediska/Command/GetHashFields.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c3108fc80b8153d6c82f9be7fb20e97e" name="library/Rediska/Command/GetHashLength.php" role="php"/>
+   <file baseinstalldir="/" md5sum="a4d3a6ee9b6b721ac74e59e784b3c054" name="library/Rediska/Command/GetHashValues.php" role="php"/>
+   <file baseinstalldir="/" md5sum="d9787a648389924322774caac2dd84c8" name="library/Rediska/Command/GetKeysByPattern.php" role="php"/>
+   <file baseinstalldir="/" md5sum="f31ddcc8da57e96e5799d6e910e7fc04" name="library/Rediska/Command/GetKeysCount.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9f94f6f3dec96766139056193f2e6722" name="library/Rediska/Command/GetLastSaveTime.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5ab5d3bdd5e1bdc0d0a4401694d1d56d" name="library/Rediska/Command/GetLength.php" role="php"/>
+   <file baseinstalldir="/" md5sum="b530de00405cb97037e3f31a02c51dde" name="library/Rediska/Command/GetLifetime.php" role="php"/>
+   <file baseinstalldir="/" md5sum="b09fde0906ca2e8c1b7b6ae9020b3eb1" name="library/Rediska/Command/GetList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="d48ab5294d08ce3676f8de33adacd0da" name="library/Rediska/Command/GetListLength.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5130aed24842260034de96c9de4520bc" name="library/Rediska/Command/GetRandomFromSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ccfefaf0eb5bd17c28dde566f98d26ab" name="library/Rediska/Command/GetRandomKey.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c771578f417b0503c892f3f24cf4aa19" name="library/Rediska/Command/GetRange.php" role="php"/>
+   <file baseinstalldir="/" md5sum="f81712bba8eaaa984671a83bde515ce2" name="library/Rediska/Command/GetRankFromSortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="650a1cbf429dde31c8928af4b4e0034f" name="library/Rediska/Command/GetScoreFromSortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="f738c46f528471eed6b8568e392e229c" name="library/Rediska/Command/GetSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c8927d6663738d8067762f75fc6181c2" name="library/Rediska/Command/GetSetLength.php" role="php"/>
+   <file baseinstalldir="/" md5sum="431a7003487ff6567de4d7ebca792d8b" name="library/Rediska/Command/GetSortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="86f6fc975bab446dc843a349b80ce45c" name="library/Rediska/Command/GetSortedSetLength.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5f7aa15cecee98bf18c4a168d33ae2c0" name="library/Rediska/Command/GetSortedSetLengthByScore.php" role="php"/>
+   <file baseinstalldir="/" md5sum="491c88449ba4c86b31e5e2febe2426e9" name="library/Rediska/Command/GetType.php" role="php"/>
+   <file baseinstalldir="/" md5sum="1b3bb357aa554e8e42beaf1358b9207f" name="library/Rediska/Command/Increment.php" role="php"/>
+   <file baseinstalldir="/" md5sum="fd6569311eb16f392d88873941f79c73" name="library/Rediska/Command/IncrementInHash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ece55ac065b0fb646a88b7d92099617c" name="library/Rediska/Command/IncrementScoreInSortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="3fca629d49c6e21f540ec22e286459ca" name="library/Rediska/Command/Info.php" role="php"/>
+   <file baseinstalldir="/" md5sum="18e1b0eaa8ffa3333b11af1b84c6f408" name="library/Rediska/Command/InsertToList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="7617d7b895ecc5a1c664f48d144b224a" name="library/Rediska/Command/InsertToListAbstract.php" role="php"/>
+   <file baseinstalldir="/" md5sum="03cd9242913de77593c10035a52d93dc" name="library/Rediska/Command/InsertToListAfter.php" role="php"/>
+   <file baseinstalldir="/" md5sum="6faaf32d1dc98cf2d4095cbefc0ad98d" name="library/Rediska/Command/InsertToListBefore.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c3d0d75110db8b543f653dfd7c9ca04a" name="library/Rediska/Command/Interface.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ade63a89c8dcdc1e9528ab19ff298f3e" name="library/Rediska/Command/IntersectSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5bf9b6034bbd49e1f4bf2be5d6d4b210" name="library/Rediska/Command/IntersectSortedSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="b95a0656e653acb4f0d79d503a0849ac" name="library/Rediska/Command/MoveToDb.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2a8a6ccc6a2d82e0ecfaddba0c1427dd" name="library/Rediska/Command/MoveToSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="a618858dc564dabb39119b92016b24f0" name="library/Rediska/Command/PopFromList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2370c1a128793ff445c470136541c2e0" name="library/Rediska/Command/PopFromListBlocking.php" role="php"/>
+   <file baseinstalldir="/" md5sum="6698f6f548f5cbfeffcf54c265f2c803" name="library/Rediska/Command/PrependToList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="974381928bb782720eb71257fd4918fd" name="library/Rediska/Command/Publish.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c56650f49d398bb561bf215447f0123b" name="library/Rediska/Command/Quit.php" role="php"/>
+   <file baseinstalldir="/" md5sum="b1bc20c6ee1cfc8f19d62aafdd41b852" name="library/Rediska/Command/Rename.php" role="php"/>
+   <file baseinstalldir="/" md5sum="6b90fbf30ccdb964f454b8c2703e5504" name="library/Rediska/Command/RewriteAppendOnlyFile.php" role="php"/>
+   <file baseinstalldir="/" md5sum="dff3aa7c77fb323377c5dc74f390d1fb" name="library/Rediska/Command/Save.php" role="php"/>
+   <file baseinstalldir="/" md5sum="6da70f7cfac245d96c58c6c37b00f586" name="library/Rediska/Command/SelectDb.php" role="php"/>
+   <file baseinstalldir="/" md5sum="7457c665b9361e924566ed94c68376c2" name="library/Rediska/Command/Set.php" role="php"/>
+   <file baseinstalldir="/" md5sum="117f40ef563f49246930d72c7f3c2ce1" name="library/Rediska/Command/SetAndExpire.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c0e9fd1d7d3e51d902d4bdfe6b498d08" name="library/Rediska/Command/SetAndGet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2f721c1946d74c60264d4387bbe3fc4f" name="library/Rediska/Command/SetBit.php" role="php"/>
+   <file baseinstalldir="/" md5sum="78098fcb8c36f105b2e3b05ea8fc4788" name="library/Rediska/Command/SetRange.php" role="php"/>
+   <file baseinstalldir="/" md5sum="d734d3c0f5cfa01cb238c84ac757a61e" name="library/Rediska/Command/SetToHash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="92d4892ed1db1b103fa9a7cdf292ab78" name="library/Rediska/Command/SetToList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="baa16bfc224861a56c28eac218b5fbed" name="library/Rediska/Command/ShiftFromList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="180caa425631927df5dd149d71eb7db3" name="library/Rediska/Command/ShiftFromListBlocking.php" role="php"/>
+   <file baseinstalldir="/" md5sum="af86209d30821b0623c669c72ad29357" name="library/Rediska/Command/Shutdown.php" role="php"/>
+   <file baseinstalldir="/" md5sum="beccb5c58c7eec8cbd7861769fe7be86" name="library/Rediska/Command/SlaveOf.php" role="php"/>
+   <file baseinstalldir="/" md5sum="e7ddef107c4069f2553ba8e28d650cee" name="library/Rediska/Command/Sort.php" role="php"/>
+   <file baseinstalldir="/" md5sum="7ae878c7103fb0daaf10f992a29e5ae3" name="library/Rediska/Command/TruncateList.php" role="php"/>
+   <file baseinstalldir="/" md5sum="057b75c7d980ab64aeb3bf5919705151" name="library/Rediska/Command/UnionSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="415e0671febb4d096606dadcb97b02dc" name="library/Rediska/Command/UnionSortedSets.php" role="php"/>
+   <file baseinstalldir="/" md5sum="6f13309fe524e6af7036427455d479ce" name="library/Rediska/Connection/Exec/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="44007889b132ca4ab0ce5b65fbe98409" name="library/Rediska/Connection/Exec/MultiBulkIterator.php" role="php"/>
+   <file baseinstalldir="/" md5sum="de1a4b3674a6cced54f9bddd239206b9" name="library/Rediska/Connection/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="61c2ab581b427c7370aa253409047c13" name="library/Rediska/Connection/Exec.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ea7d571224c4c2072a209e5e8a5d4e66" name="library/Rediska/Connection/Specified.php" role="php"/>
+   <file baseinstalldir="/" md5sum="38962b428242b2518caff61769473534" name="library/Rediska/Connection/TimeoutException.php" role="php"/>
+   <file baseinstalldir="/" md5sum="a3a0feef7fbb976264f9d63dca7ecb6d" name="library/Rediska/Key/Abstract.php" role="php"/>
+   <file baseinstalldir="/" md5sum="e8febc3214bae9d748393759008cb7a7" name="library/Rediska/Key/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="34165f12602241357f9e5ec04b309183" name="library/Rediska/Key/Hash.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ee215eb81166acea8d873f7cb54dcdc2" name="library/Rediska/Key/List.php" role="php"/>
+   <file baseinstalldir="/" md5sum="aadaa059706e65a0a0369555393865ce" name="library/Rediska/Key/Set.php" role="php"/>
+   <file baseinstalldir="/" md5sum="18131e0fdbd8beb43aa855a381c401c9" name="library/Rediska/Key/SortedSet.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9e5b0e735fd78205b9ec3efd5da956b3" name="library/Rediska/KeyDistributor/ConsistentHashing.php" role="php"/>
+   <file baseinstalldir="/" md5sum="cfd4e0bb87a90bcd917ca5abd518fa8e" name="library/Rediska/KeyDistributor/Crc32.php" role="php"/>
+   <file baseinstalldir="/" md5sum="7bf63361ba3a97e9e82cbc0f106de52c" name="library/Rediska/KeyDistributor/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="46a8575817b850130ce90368b8a39171" name="library/Rediska/KeyDistributor/Interface.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2604ba880b70f2c1369c72e2f6fe5f32" name="library/Rediska/Monitor/Connections.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c86a806c8caeb217a1fae09dbe94f738" name="library/Rediska/Monitor/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="a1b09677fc308090e8471fa4f4212881" name="library/Rediska/Options/RediskaInstance.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2ece1fb80a5f9ecdc47207b209641515" name="library/Rediska/Profiler/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="6d2a4c894e0e5aecbf74bd1a3ed1b2f6" name="library/Rediska/Profiler/Interface.php" role="php"/>
+   <file baseinstalldir="/" md5sum="3152f147392b870c64678ccfa304d292" name="library/Rediska/Profiler/Null.php" role="php"/>
+   <file baseinstalldir="/" md5sum="35aa354585ebe5b7fcae02402effad42" name="library/Rediska/Profiler/Profile.php" role="php"/>
+   <file baseinstalldir="/" md5sum="0b99669f4115e328d8f87a73620a8a69" name="library/Rediska/Profiler/Stream.php" role="php"/>
+   <file baseinstalldir="/" md5sum="f94a1427aa4ff9327a8eb90e44341afb" name="library/Rediska/PubSub/Response/Abstract.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5b7074a199b80790d4538f5424c790d7" name="library/Rediska/PubSub/Response/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="cf22e132d3ec3d745bac226baadd59c4" name="library/Rediska/PubSub/Response/Message.php" role="php"/>
+   <file baseinstalldir="/" md5sum="80aecdc4db6c878483c3d22e55de9943" name="library/Rediska/PubSub/Response/Subscribe.php" role="php"/>
+   <file baseinstalldir="/" md5sum="d8758629206c283fa2b24744a72d67c0" name="library/Rediska/PubSub/Response/Unsubscribe.php" role="php"/>
+   <file baseinstalldir="/" md5sum="1ec8951491f95d712e8d9c7dad1940ca" name="library/Rediska/PubSub/Channel.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c80eeb9977d294866be7e15011bdc402" name="library/Rediska/PubSub/Connections.php" role="php"/>
+   <file baseinstalldir="/" md5sum="5563f647c25062baf4c108bd967dbbe8" name="library/Rediska/PubSub/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="0e5e6c021a69f37780c7d4ed32695caf" name="library/Rediska/Serializer/Adapter/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="fea87b65f88a6cd336097c3af1552cf3" name="library/Rediska/Serializer/Adapter/Interface.php" role="php"/>
+   <file baseinstalldir="/" md5sum="38e1d8975da1b5dac328213ba8501166" name="library/Rediska/Serializer/Adapter/Json.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2e24bd763a9cad175827d3a08adc3596" name="library/Rediska/Serializer/Adapter/PhpSerialize.php" role="php"/>
+   <file baseinstalldir="/" md5sum="e19f4f0c7fb64c49ccc1825084443533" name="library/Rediska/Serializer/Adapter/ToString.php" role="php"/>
+   <file baseinstalldir="/" md5sum="120d8dbb5f4ae01c71640768c2debf85" name="library/Rediska/Serializer/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="92a47ffbb1e8206cedf049b259aa1aac" name="library/Rediska/Transaction/AbortedException.php" role="php"/>
+   <file baseinstalldir="/" md5sum="f58148fd78c667026cb658138d2b8564" name="library/Rediska/Transaction/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="73f4f595cab7edab73bd99da817b915a" name="library/Rediska/Zend/Application/Resource/Rediska.php" role="php"/>
+   <file baseinstalldir="/" md5sum="fd33f108e6e802506f43aaea5530dfd4" name="library/Rediska/Zend/Auth/Adapter/Redis.php" role="php"/>
+   <file baseinstalldir="/" md5sum="e75473071e616ff8cd69a0f6f825546a" name="library/Rediska/Zend/Cache/Backend/Redis.php" role="php"/>
+   <file baseinstalldir="/" md5sum="bc325e0e94c993ec031e0332f69723b3" name="library/Rediska/Zend/Log/Writer/Redis.php" role="php"/>
+   <file baseinstalldir="/" md5sum="1e96c90288c2a5524b16d573c8cf2209" name="library/Rediska/Zend/Profiler/Firebug.php" role="php"/>
+   <file baseinstalldir="/" md5sum="c29b931056246b3e1967d6cc0d876ad0" name="library/Rediska/Zend/Queue/Adapter/Redis.php" role="php"/>
+   <file baseinstalldir="/" md5sum="8a326414f094a9acbea49960edf5170b" name="library/Rediska/Zend/Session/SaveHandler/Redis.php" role="php"/>
+   <file baseinstalldir="/" md5sum="562c4411641143c721b6fbf54d4fd26b" name="library/Rediska/Zend/Session/Set.php" role="php"/>
+   <file baseinstalldir="/" md5sum="2a61603935e8691cc270bb8cd71f1519" name="library/Rediska/Autoloader.php" role="php"/>
+   <file baseinstalldir="/" md5sum="b1472885eea8f7135f10128ab86780ab" name="library/Rediska/Commands.php" role="php"/>
+   <file baseinstalldir="/" md5sum="bb051fe6a55e0e1965937cf24afe2028" name="library/Rediska/Config.php" role="php"/>
+   <file baseinstalldir="/" md5sum="f302489ac1857ab97d49ef0a4f643bab" name="library/Rediska/Connection.php" role="php"/>
+   <file baseinstalldir="/" md5sum="8e709daca0d300862fd6f626399447e6" name="library/Rediska/Exception.php" role="php"/>
+   <file baseinstalldir="/" md5sum="93232ea529f2921ad9eb019cd1ec1e55" name="library/Rediska/Key.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9d9f2ec995c5cce543255629f5949538" name="library/Rediska/Manager.php" role="php"/>
+   <file baseinstalldir="/" md5sum="11a9c679235a187a2855c8fead357f58" name="library/Rediska/Monitor.php" role="php"/>
+   <file baseinstalldir="/" md5sum="54c706a947b95f7b2b07b45431e851cd" name="library/Rediska/Options.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9be162063a1f0769859f5e2bdd5b88fa" name="library/Rediska/Pipeline.php" role="php"/>
+   <file baseinstalldir="/" md5sum="cc7c0042160f2bdfef25ccf7fe096251" name="library/Rediska/Profiler.php" role="php"/>
+   <file baseinstalldir="/" md5sum="9ecca57102d7273387afe53f84cfaa1d" name="library/Rediska/Serializer.php" role="php"/>
+   <file baseinstalldir="/" md5sum="a8215803bd8411513e50bb4f8a5064a8" name="library/Rediska/Transaction.php" role="php"/>
+   <file baseinstalldir="/" md5sum="dc86483bd91af5fc4da96faa8013babc" name="library/Rediska.php" role="php"/>
+   <file baseinstalldir="/" md5sum="ccb274ae9b0d431b4741341f03e2fef4" name="scripts/add_command_methods.php" role="php"/>
+   <file baseinstalldir="/" md5sum="18d47b338735813c70967dfbd103bb2d" name="tests/library/Rediska/Command/AddToSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="9e8e9ad4d02d17cc4181302c28515a23" name="tests/library/Rediska/Command/AddToSortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="66afbd4c2c2dd7fde80ecbb9b5ee5fcb" name="tests/library/Rediska/Command/AppendTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="e7561ec094171270335087dff942100f" name="tests/library/Rediska/Command/AppendToListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="76cacd1e20e874e2ee394db75d4cbc4b" name="tests/library/Rediska/Command/DecrementTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1af8b288f77479f3fc80c2c630352b12" name="tests/library/Rediska/Command/DeleteFromHashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="db01c824a7ac3d095b14e878b7b4dab0" name="tests/library/Rediska/Command/DeleteFromListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="3811903eecd7fbe494d55e0b48469379" name="tests/library/Rediska/Command/DeleteFromSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="2b95527374d2f2be292e2cbba62eb8af" name="tests/library/Rediska/Command/DeleteFromSortedSetByRankTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="b46b196f2684e35a51869c6575537f68" name="tests/library/Rediska/Command/DeleteFromSortedSetByScoreTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="202b762d8917f1bccb44dd8518387d56" name="tests/library/Rediska/Command/DeleteFromSortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="8a9e4405c5dd487a9b53daa33ec9218d" name="tests/library/Rediska/Command/DeleteTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1744d2403f0a863d2c93a9f5c184f23b" name="tests/library/Rediska/Command/DiffSetsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="f476a734ed406496860292f060e4d17d" name="tests/library/Rediska/Command/ExistsInHashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="680a43da53d554f3172e30a311f07845" name="tests/library/Rediska/Command/ExistsInSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="ffd9cc66bf877819f3c11d18f672b261" name="tests/library/Rediska/Command/ExistsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="cd123b17d5beb47fd0ac1680e667ff1f" name="tests/library/Rediska/Command/ExpireTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="a08a0776753e9140dc0f56353276600f" name="tests/library/Rediska/Command/FlushDbTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="86d5064618ec97c292c2cf4cd568129e" name="tests/library/Rediska/Command/GetBitTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="fe702ffafbcaedb987dd9ff9c4195e6d" name="tests/library/Rediska/Command/GetFromHashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="29c47acb43e472fee21a4955f13b1f7e" name="tests/library/Rediska/Command/GetFromListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6987247dd87292aabc2435c370ef79b5" name="tests/library/Rediska/Command/GetFromSortedSetByScoreTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6cca79945e2b7f636ee40b94be44526e" name="tests/library/Rediska/Command/GetHashFieldsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6acff5a290d864c9868bccf29de11756" name="tests/library/Rediska/Command/GetHashLengthTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="2cebe8378e64a25233cc0247acdbf6f8" name="tests/library/Rediska/Command/GetHashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="adacbfddd5a82408387951715eb9c8ac" name="tests/library/Rediska/Command/GetHashValuesTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1d22ce8a1881892793e8f2e0d2e53246" name="tests/library/Rediska/Command/GetKeysByPatternTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="9db4d3ee26a9463e0134c8344174d530" name="tests/library/Rediska/Command/GetKeysCountTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6f53744f797daddfe10e068b0c494347" name="tests/library/Rediska/Command/GetLastSaveTimeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="c7da25809c7ca28b3ef8badb5d2b65fe" name="tests/library/Rediska/Command/GetLength.php" role="test"/>
+   <file baseinstalldir="/" md5sum="8702b705cabfe10cb42c1c6af889c61b" name="tests/library/Rediska/Command/GetLifetimeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="34818035f0d0e820321c4fbbffd6261e" name="tests/library/Rediska/Command/GetListLengthTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1c15a491c3c5bdb026fe3c049b8ae09c" name="tests/library/Rediska/Command/GetListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="765ae9cecc9d678fb0a91ae02ae4389e" name="tests/library/Rediska/Command/GetRandomFromSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="7f828bd37f0ef7af5725aff4c3808e58" name="tests/library/Rediska/Command/GetRandomKeyTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="7138347e1fdeccaaafc04a1d890b7b70" name="tests/library/Rediska/Command/GetRangeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="279703a602022819c53f0bfc6d342a16" name="tests/library/Rediska/Command/GetRankFromSortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6ac98d0bad95fd187554ff4c1e0f27b2" name="tests/library/Rediska/Command/GetScoreFromSortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6f80ec2dd23a816505b1e949173813c8" name="tests/library/Rediska/Command/GetSetLengthTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="e40be20d65fc1ddb72c45f6c62e6804d" name="tests/library/Rediska/Command/GetSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="088c072b3611d5fc3e4b38de3d5033f7" name="tests/library/Rediska/Command/GetSortedSetLengthByScoreTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="460590503d60b40f8ebbe09f8e9860bf" name="tests/library/Rediska/Command/GetSortedSetLengthTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="ec2ea68d5c0fabae9d758f01084bcff7" name="tests/library/Rediska/Command/GetSortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="9555c5bf06116713b3d63c58cfac0cb3" name="tests/library/Rediska/Command/GetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="0291dad5ee753dc3a462ab1866e98191" name="tests/library/Rediska/Command/GetTypeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="b737616b0afe1619ca6ad09ba62a67cc" name="tests/library/Rediska/Command/IncrementInHashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="feb6873e95671d67e01a413903b69a3f" name="tests/library/Rediska/Command/IncrementScoreInSortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="85097fb88012782df8d3d3793d6f0e65" name="tests/library/Rediska/Command/IncrementTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="caca5aea79bf5dd2ecd43da8ce0a6389" name="tests/library/Rediska/Command/InfoTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="7b028d4636cad57e4d13e193892f215f" name="tests/library/Rediska/Command/InsertToListAfterTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="30d7c0c8eb3351e2ffa525fb32567128" name="tests/library/Rediska/Command/InsertToListBeforeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="ce878776d539d5618ea1f795d7557718" name="tests/library/Rediska/Command/InsertToListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="362c879ad5fc9a798166ee28be31a6e0" name="tests/library/Rediska/Command/IntersectSetsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="92ea841cce998ffa79486a17086945d0" name="tests/library/Rediska/Command/IntersectSortedSetsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="ad4e65446445cb9b49fa3c94498c82a5" name="tests/library/Rediska/Command/MoveToDbTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="56dbc869b9224ba881c398d87d0244ee" name="tests/library/Rediska/Command/MoveToSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="a513513d53a37672ca606eaa71b40a85" name="tests/library/Rediska/Command/PopFromListBlockingTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="130570b7049129d7eb48e747ce4ef27f" name="tests/library/Rediska/Command/PopFromListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="192191628c93f75b797783a99970e71a" name="tests/library/Rediska/Command/PrependToListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="0c7f186652dcf09091939e0bcc093edb" name="tests/library/Rediska/Command/QuitTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="65531ae992c1fd45b6d8464c56005bbb" name="tests/library/Rediska/Command/RenameTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="c28d446ee7f8c9da0f3f6515d0a97877" name="tests/library/Rediska/Command/RewriteAppendOnlyFileTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="2d6ddea28d03017c2ae34267a3293595" name="tests/library/Rediska/Command/SaveTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="11f1326b7e20736c88ee65e0804fc96f" name="tests/library/Rediska/Command/SelectDbTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="e69c6e5f3c0d7668da4c7ace813b9171" name="tests/library/Rediska/Command/SetAndExpireTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="42da7899ae3cd1f085e789fff0a004ae" name="tests/library/Rediska/Command/SetAndGetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="51a4e1d808f1643cdbba360afed08d41" name="tests/library/Rediska/Command/SetBit.php" role="test"/>
+   <file baseinstalldir="/" md5sum="375d7942876127152d2459ccfa84356f" name="tests/library/Rediska/Command/SetRangeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="9762e07b813b0eec630f40e90e10de26" name="tests/library/Rediska/Command/SetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="c3a019ff6ea74103cfd22e8ec43cffcc" name="tests/library/Rediska/Command/SetToHashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="24b9a50141fdaa8ed64346888db4f1d7" name="tests/library/Rediska/Command/SetToListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="140447a6077184ac498bc4addf8deb82" name="tests/library/Rediska/Command/ShiftFromListBlockingTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="9988f291619cd013864540a97dcd39a8" name="tests/library/Rediska/Command/ShiftFromListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="fc969cbbb61feb4e605cb707c2c407e3" name="tests/library/Rediska/Command/ShutdownTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="fc47467143019364b9c122783acbd5d0" name="tests/library/Rediska/Command/SlaveOfTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="9f48906afe909b4b41b78be2922b15bc" name="tests/library/Rediska/Command/SortTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="6fda7d492eabc3b99c5d8b89da8b98d4" name="tests/library/Rediska/Command/TruncateListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="4d289eaffd8dc7c21bc84dbc75553969" name="tests/library/Rediska/Command/UnionSetsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="91e03236f2ad192fe64c03c1a98a1dcb" name="tests/library/Rediska/Command/UnionSortedSetsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="0f7ec4b6c9aa66127d5dbb47ab8fa90d" name="tests/library/Rediska/Connection/ExecTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="8ad3381023fc51ff36407326b78a0861" name="tests/library/Rediska/Key/AbstractTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="f1d00a020587f3fc0e6df5d105d95775" name="tests/library/Rediska/Key/HashTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="dc8647facbbf3cb436cd2332d6c5cd74" name="tests/library/Rediska/Key/ListTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="f923305e9f422ebf14220b911d134c8a" name="tests/library/Rediska/Key/SetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="b7dc895519694bf3d298fc7603da94aa" name="tests/library/Rediska/Key/SortedSetTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="144e4917745b59645f513acd74dcdea2" name="tests/library/Rediska/KeyDistributor/ConsistentHashingTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="0d61065f2f24f76340040d95bb7e8782" name="tests/library/Rediska/KeyDistributor/Crc32Test.php" role="test"/>
+   <file baseinstalldir="/" md5sum="0efb8fc4df8aa52668f2c6be9923fcf6" name="tests/library/Rediska/Options/RediskaInstanceTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="64cd80102bef3b50104860f802b64b6a" name="tests/library/Rediska/Serializer/Adapter/JsonTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="b7d56dc1a66e3779029b8feffbbfb7f0" name="tests/library/Rediska/Serializer/Adapter/PhpSerializeTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="c300c3bf93bb62094af674288b5e63d9" name="tests/library/Rediska/Serializer/Adapter/ToStringTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1c79aa8a030093aa51591f51c4acf0c3" name="tests/library/Rediska/Zend/Application/application.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="c7a0162a0dfd8a2279384a645c01e3a2" name="tests/library/Rediska/Zend/Application/application2.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="988e081ce22c0bc59af9bbb4f096a9cc" name="tests/library/Rediska/Zend/Application/application3.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="649092855864c9afda7e1b9b7b5ce577" name="tests/library/Rediska/Zend/Application/application4.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="74846de18157eedd6c06bc618ea4c520" name="tests/library/Rediska/Zend/Application/ResourceTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1dc57a36cb3335d93abeccf5d9472700" name="tests/library/Rediska/Zend/Cache/application.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="eb8e9c98e43e4e75ad7a35b40b070aba" name="tests/library/Rediska/Zend/Cache/application2.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="9b893d5008e885211a8d79667b385993" name="tests/library/Rediska/Zend/Cache/application3.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="053428021a1b0740c72825e82d94df09" name="tests/library/Rediska/Zend/Cache/application4.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="bf47542e29ed6d09390da5e21ff18947" name="tests/library/Rediska/Zend/Cache/CacheTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="8d61118f8abde0248719bd22c97f34cb" name="tests/library/Rediska/Zend/Cache/ResourceTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="aa9a1c874f631e4810b4963f1ce0a20c" name="tests/library/Rediska/Zend/Log/application.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="3ae7a2ca002e4ba1ca2738d517392203" name="tests/library/Rediska/Zend/Log/application2.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="dd30940e491b65e740d5415700eb9abd" name="tests/library/Rediska/Zend/Log/application3.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="d3d69feda443e73cb80eeec9ecc1bf21" name="tests/library/Rediska/Zend/Log/application4.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="3688326c665e56b66e81dcc47290e101" name="tests/library/Rediska/Zend/Log/ResourceTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="208c91551da8ad033946315f871f9497" name="tests/library/Rediska/Zend/Log/WriterTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="19019131b315e708c8a16ddcd863f2f3" name="tests/library/Rediska/Zend/Session/application.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="2e66db96258c57601b08ef751cb567e8" name="tests/library/Rediska/Zend/Session/application2.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="dd06110be3e5284fe315d1ca867f74ae" name="tests/library/Rediska/Zend/Session/application3.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="68f3df46b87d4f46d27fc8cafa9ab3da" name="tests/library/Rediska/Zend/Session/application4.ini" role="test"/>
+   <file baseinstalldir="/" md5sum="da993f24bd6e6f78a9ad27ee04d73958" name="tests/library/Rediska/Zend/Session/ResourceTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="bf59d717f7539d690084b6abef098e6d" name="tests/library/Rediska/Zend/Session/SessionTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="a640276f1e0a39ca087fa590358b0cfb" name="tests/library/Rediska/Zend/AuthTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="b411cb24779b9f044f2de39410077965" name="tests/library/Rediska/Zend/QueueTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="561e6894bc150f70efb6c277548c335e" name="tests/library/Rediska/ConfigTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="96900f5700eb1cef39ab6f12f8c82f32" name="tests/library/Rediska/ConnectionTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="961f93223adbca1a27d098c6179979d4" name="tests/library/Rediska/KeyTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="cfc3e49b44898ee53ef2c67e28d8bf30" name="tests/library/Rediska/OptionsTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="a50e439ef456ae8171f39eeac9c512e6" name="tests/library/Rediska/PipelineTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="7964278c4f298f78df947c8f4ac30042" name="tests/library/Rediska/SerializerTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="d58da9c8b442c3e082dbc36173afe471" name="tests/library/Rediska/TestCase.php" role="test"/>
+   <file baseinstalldir="/" md5sum="3dfba7979293f1dd69a500a6a3c49540" name="tests/library/Rediska/TransactionTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="f9a80505c65412423c04f172bf6aeee3" name="tests/library/RediskaTest.php" role="test"/>
+   <file baseinstalldir="/" md5sum="1a881e541b5450c3bdbd07edd1f60fe0" name="tests/bootstrap.php" role="test"/>
+   <file baseinstalldir="/" md5sum="2c8fe30ca45567b3ee022e388a27afbb" name="tests/config.ini-dist" role="test"/>
+   <file baseinstalldir="/" md5sum="31bb99df7ddeac10c797daaca313232a" name="tests/phpunit.xml" role="test"/>
+   <file baseinstalldir="/" md5sum="6cd315fbac1cd120240ef5e9473a5d05" name="tests/README.txt" role="test"/>
+   <file baseinstalldir="/" md5sum="e7fbbb86f5f65fdbb432686932f8dbe7" name="CHANGELOG.txt" role="doc"/>
+   <file baseinstalldir="/" md5sum="8093c00e276dd2b24450fff2d67f0818" name="LICENSE.txt" role="data"/>
+   <file baseinstalldir="/" md5sum="5fc60b4874081b7f7240dd6b74383a2d" name="README.markdown" role="doc"/>
+   <file baseinstalldir="/" md5sum="af1a4c1c8f590be4ec6540f9ed211f7b" name="VERSION.txt" role="doc"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.7.0</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>zf</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.10.2</min>
+    <recommended>1</recommended>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="Rediska/Autoloader.php" name="library/Rediska/Autoloader.php"/>
+   <install as="Rediska/Command/Abstract.php" name="library/Rediska/Command/Abstract.php"/>
+   <install as="Rediska/Command/AddToSet.php" name="library/Rediska/Command/AddToSet.php"/>
+   <install as="Rediska/Command/AddToSortedSet.php" name="library/Rediska/Command/AddToSortedSet.php"/>
+   <install as="Rediska/Command/Append.php" name="library/Rediska/Command/Append.php"/>
+   <install as="Rediska/Command/AppendToList.php" name="library/Rediska/Command/AppendToList.php"/>
+   <install as="Rediska/Command/CompareSets.php" name="library/Rediska/Command/CompareSets.php"/>
+   <install as="Rediska/Command/CompareSortedSets.php" name="library/Rediska/Command/CompareSortedSets.php"/>
+   <install as="Rediska/Command/Decrement.php" name="library/Rediska/Command/Decrement.php"/>
+   <install as="Rediska/Command/Delete.php" name="library/Rediska/Command/Delete.php"/>
+   <install as="Rediska/Command/DeleteFromHash.php" name="library/Rediska/Command/DeleteFromHash.php"/>
+   <install as="Rediska/Command/DeleteFromList.php" name="library/Rediska/Command/DeleteFromList.php"/>
+   <install as="Rediska/Command/DeleteFromSet.php" name="library/Rediska/Command/DeleteFromSet.php"/>
+   <install as="Rediska/Command/DeleteFromSortedSet.php" name="library/Rediska/Command/DeleteFromSortedSet.php"/>
+   <install as="Rediska/Command/DeleteFromSortedSetByRank.php" name="library/Rediska/Command/DeleteFromSortedSetByRank.php"/>
+   <install as="Rediska/Command/DeleteFromSortedSetByScore.php" name="library/Rediska/Command/DeleteFromSortedSetByScore.php"/>
+   <install as="Rediska/Command/DiffSets.php" name="library/Rediska/Command/DiffSets.php"/>
+   <install as="Rediska/Command/Exception.php" name="library/Rediska/Command/Exception.php"/>
+   <install as="Rediska/Command/Exists.php" name="library/Rediska/Command/Exists.php"/>
+   <install as="Rediska/Command/ExistsInHash.php" name="library/Rediska/Command/ExistsInHash.php"/>
+   <install as="Rediska/Command/ExistsInSet.php" name="library/Rediska/Command/ExistsInSet.php"/>
+   <install as="Rediska/Command/Expire.php" name="library/Rediska/Command/Expire.php"/>
+   <install as="Rediska/Command/FlushDb.php" name="library/Rediska/Command/FlushDb.php"/>
+   <install as="Rediska/Command/Get.php" name="library/Rediska/Command/Get.php"/>
+   <install as="Rediska/Command/GetBit.php" name="library/Rediska/Command/GetBit.php"/>
+   <install as="Rediska/Command/GetFromHash.php" name="library/Rediska/Command/GetFromHash.php"/>
+   <install as="Rediska/Command/GetFromList.php" name="library/Rediska/Command/GetFromList.php"/>
+   <install as="Rediska/Command/GetFromSortedSetByScore.php" name="library/Rediska/Command/GetFromSortedSetByScore.php"/>
+   <install as="Rediska/Command/GetHash.php" name="library/Rediska/Command/GetHash.php"/>
+   <install as="Rediska/Command/GetHashFields.php" name="library/Rediska/Command/GetHashFields.php"/>
+   <install as="Rediska/Command/GetHashLength.php" name="library/Rediska/Command/GetHashLength.php"/>
+   <install as="Rediska/Command/GetHashValues.php" name="library/Rediska/Command/GetHashValues.php"/>
+   <install as="Rediska/Command/GetKeysByPattern.php" name="library/Rediska/Command/GetKeysByPattern.php"/>
+   <install as="Rediska/Command/GetKeysCount.php" name="library/Rediska/Command/GetKeysCount.php"/>
+   <install as="Rediska/Command/GetLastSaveTime.php" name="library/Rediska/Command/GetLastSaveTime.php"/>
+   <install as="Rediska/Command/GetLength.php" name="library/Rediska/Command/GetLength.php"/>
+   <install as="Rediska/Command/GetLifetime.php" name="library/Rediska/Command/GetLifetime.php"/>
+   <install as="Rediska/Command/GetList.php" name="library/Rediska/Command/GetList.php"/>
+   <install as="Rediska/Command/GetListLength.php" name="library/Rediska/Command/GetListLength.php"/>
+   <install as="Rediska/Command/GetRandomFromSet.php" name="library/Rediska/Command/GetRandomFromSet.php"/>
+   <install as="Rediska/Command/GetRandomKey.php" name="library/Rediska/Command/GetRandomKey.php"/>
+   <install as="Rediska/Command/GetRange.php" name="library/Rediska/Command/GetRange.php"/>
+   <install as="Rediska/Command/GetRankFromSortedSet.php" name="library/Rediska/Command/GetRankFromSortedSet.php"/>
+   <install as="Rediska/Command/GetScoreFromSortedSet.php" name="library/Rediska/Command/GetScoreFromSortedSet.php"/>
+   <install as="Rediska/Command/GetSet.php" name="library/Rediska/Command/GetSet.php"/>
+   <install as="Rediska/Command/GetSetLength.php" name="library/Rediska/Command/GetSetLength.php"/>
+   <install as="Rediska/Command/GetSortedSet/WithScoresIterator.php" name="library/Rediska/Command/GetSortedSet/WithScoresIterator.php"/>
+   <install as="Rediska/Command/GetSortedSet.php" name="library/Rediska/Command/GetSortedSet.php"/>
+   <install as="Rediska/Command/GetSortedSetLength.php" name="library/Rediska/Command/GetSortedSetLength.php"/>
+   <install as="Rediska/Command/GetSortedSetLengthByScore.php" name="library/Rediska/Command/GetSortedSetLengthByScore.php"/>
+   <install as="Rediska/Command/GetType.php" name="library/Rediska/Command/GetType.php"/>
+   <install as="Rediska/Command/Increment.php" name="library/Rediska/Command/Increment.php"/>
+   <install as="Rediska/Command/IncrementInHash.php" name="library/Rediska/Command/IncrementInHash.php"/>
+   <install as="Rediska/Command/IncrementScoreInSortedSet.php" name="library/Rediska/Command/IncrementScoreInSortedSet.php"/>
+   <install as="Rediska/Command/Info.php" name="library/Rediska/Command/Info.php"/>
+   <install as="Rediska/Command/InsertToList.php" name="library/Rediska/Command/InsertToList.php"/>
+   <install as="Rediska/Command/InsertToListAbstract.php" name="library/Rediska/Command/InsertToListAbstract.php"/>
+   <install as="Rediska/Command/InsertToListAfter.php" name="library/Rediska/Command/InsertToListAfter.php"/>
+   <install as="Rediska/Command/InsertToListBefore.php" name="library/Rediska/Command/InsertToListBefore.php"/>
+   <install as="Rediska/Command/Interface.php" name="library/Rediska/Command/Interface.php"/>
+   <install as="Rediska/Command/IntersectSets.php" name="library/Rediska/Command/IntersectSets.php"/>
+   <install as="Rediska/Command/IntersectSortedSets.php" name="library/Rediska/Command/IntersectSortedSets.php"/>
+   <install as="Rediska/Command/MoveToDb.php" name="library/Rediska/Command/MoveToDb.php"/>
+   <install as="Rediska/Command/MoveToSet.php" name="library/Rediska/Command/MoveToSet.php"/>
+   <install as="Rediska/Command/PopFromList.php" name="library/Rediska/Command/PopFromList.php"/>
+   <install as="Rediska/Command/PopFromListBlocking.php" name="library/Rediska/Command/PopFromListBlocking.php"/>
+   <install as="Rediska/Command/PrependToList.php" name="library/Rediska/Command/PrependToList.php"/>
+   <install as="Rediska/Command/Publish.php" name="library/Rediska/Command/Publish.php"/>
+   <install as="Rediska/Command/Quit.php" name="library/Rediska/Command/Quit.php"/>
+   <install as="Rediska/Command/Rename.php" name="library/Rediska/Command/Rename.php"/>
+   <install as="Rediska/Command/Response/ListNameAndValue.php" name="library/Rediska/Command/Response/ListNameAndValue.php"/>
+   <install as="Rediska/Command/Response/ValueAndScore.php" name="library/Rediska/Command/Response/ValueAndScore.php"/>
+   <install as="Rediska/Command/RewriteAppendOnlyFile.php" name="library/Rediska/Command/RewriteAppendOnlyFile.php"/>
+   <install as="Rediska/Command/Save.php" name="library/Rediska/Command/Save.php"/>
+   <install as="Rediska/Command/SelectDb.php" name="library/Rediska/Command/SelectDb.php"/>
+   <install as="Rediska/Command/Set.php" name="library/Rediska/Command/Set.php"/>
+   <install as="Rediska/Command/SetAndExpire.php" name="library/Rediska/Command/SetAndExpire.php"/>
+   <install as="Rediska/Command/SetAndGet.php" name="library/Rediska/Command/SetAndGet.php"/>
+   <install as="Rediska/Command/SetBit.php" name="library/Rediska/Command/SetBit.php"/>
+   <install as="Rediska/Command/SetRange.php" name="library/Rediska/Command/SetRange.php"/>
+   <install as="Rediska/Command/SetToHash.php" name="library/Rediska/Command/SetToHash.php"/>
+   <install as="Rediska/Command/SetToList.php" name="library/Rediska/Command/SetToList.php"/>
+   <install as="Rediska/Command/ShiftFromList.php" name="library/Rediska/Command/ShiftFromList.php"/>
+   <install as="Rediska/Command/ShiftFromListBlocking.php" name="library/Rediska/Command/ShiftFromListBlocking.php"/>
+   <install as="Rediska/Command/Shutdown.php" name="library/Rediska/Command/Shutdown.php"/>
+   <install as="Rediska/Command/SlaveOf.php" name="library/Rediska/Command/SlaveOf.php"/>
+   <install as="Rediska/Command/Sort.php" name="library/Rediska/Command/Sort.php"/>
+   <install as="Rediska/Command/TruncateList.php" name="library/Rediska/Command/TruncateList.php"/>
+   <install as="Rediska/Command/UnionSets.php" name="library/Rediska/Command/UnionSets.php"/>
+   <install as="Rediska/Command/UnionSortedSets.php" name="library/Rediska/Command/UnionSortedSets.php"/>
+   <install as="Rediska/Commands.php" name="library/Rediska/Commands.php"/>
+   <install as="Rediska/Config.php" name="library/Rediska/Config.php"/>
+   <install as="Rediska/Connection/Exception.php" name="library/Rediska/Connection/Exception.php"/>
+   <install as="Rediska/Connection/Exec/Exception.php" name="library/Rediska/Connection/Exec/Exception.php"/>
+   <install as="Rediska/Connection/Exec/MultiBulkIterator.php" name="library/Rediska/Connection/Exec/MultiBulkIterator.php"/>
+   <install as="Rediska/Connection/Exec.php" name="library/Rediska/Connection/Exec.php"/>
+   <install as="Rediska/Connection/Specified.php" name="library/Rediska/Connection/Specified.php"/>
+   <install as="Rediska/Connection/TimeoutException.php" name="library/Rediska/Connection/TimeoutException.php"/>
+   <install as="Rediska/Connection.php" name="library/Rediska/Connection.php"/>
+   <install as="Rediska/Exception.php" name="library/Rediska/Exception.php"/>
+   <install as="Rediska/Key/Abstract.php" name="library/Rediska/Key/Abstract.php"/>
+   <install as="Rediska/Key/Exception.php" name="library/Rediska/Key/Exception.php"/>
+   <install as="Rediska/Key/Hash.php" name="library/Rediska/Key/Hash.php"/>
+   <install as="Rediska/Key/List.php" name="library/Rediska/Key/List.php"/>
+   <install as="Rediska/Key/Set.php" name="library/Rediska/Key/Set.php"/>
+   <install as="Rediska/Key/SortedSet.php" name="library/Rediska/Key/SortedSet.php"/>
+   <install as="Rediska/Key.php" name="library/Rediska/Key.php"/>
+   <install as="Rediska/KeyDistributor/ConsistentHashing.php" name="library/Rediska/KeyDistributor/ConsistentHashing.php"/>
+   <install as="Rediska/KeyDistributor/Crc32.php" name="library/Rediska/KeyDistributor/Crc32.php"/>
+   <install as="Rediska/KeyDistributor/Exception.php" name="library/Rediska/KeyDistributor/Exception.php"/>
+   <install as="Rediska/KeyDistributor/Interface.php" name="library/Rediska/KeyDistributor/Interface.php"/>
+   <install as="Rediska/Manager.php" name="library/Rediska/Manager.php"/>
+   <install as="Rediska/Monitor/Connections.php" name="library/Rediska/Monitor/Connections.php"/>
+   <install as="Rediska/Monitor/Exception.php" name="library/Rediska/Monitor/Exception.php"/>
+   <install as="Rediska/Monitor.php" name="library/Rediska/Monitor.php"/>
+   <install as="Rediska/Options/RediskaInstance.php" name="library/Rediska/Options/RediskaInstance.php"/>
+   <install as="Rediska/Options.php" name="library/Rediska/Options.php"/>
+   <install as="Rediska/Pipeline.php" name="library/Rediska/Pipeline.php"/>
+   <install as="Rediska/Profiler/Exception.php" name="library/Rediska/Profiler/Exception.php"/>
+   <install as="Rediska/Profiler/Interface.php" name="library/Rediska/Profiler/Interface.php"/>
+   <install as="Rediska/Profiler/Null.php" name="library/Rediska/Profiler/Null.php"/>
+   <install as="Rediska/Profiler/Profile.php" name="library/Rediska/Profiler/Profile.php"/>
+   <install as="Rediska/Profiler/Stream.php" name="library/Rediska/Profiler/Stream.php"/>
+   <install as="Rediska/Profiler.php" name="library/Rediska/Profiler.php"/>
+   <install as="Rediska/PubSub/Channel.php" name="library/Rediska/PubSub/Channel.php"/>
+   <install as="Rediska/PubSub/Connections.php" name="library/Rediska/PubSub/Connections.php"/>
+   <install as="Rediska/PubSub/Exception.php" name="library/Rediska/PubSub/Exception.php"/>
+   <install as="Rediska/PubSub/Response/Abstract.php" name="library/Rediska/PubSub/Response/Abstract.php"/>
+   <install as="Rediska/PubSub/Response/Exception.php" name="library/Rediska/PubSub/Response/Exception.php"/>
+   <install as="Rediska/PubSub/Response/Message.php" name="library/Rediska/PubSub/Response/Message.php"/>
+   <install as="Rediska/PubSub/Response/Subscribe.php" name="library/Rediska/PubSub/Response/Subscribe.php"/>
+   <install as="Rediska/PubSub/Response/Unsubscribe.php" name="library/Rediska/PubSub/Response/Unsubscribe.php"/>
+   <install as="Rediska/Serializer/Adapter/Exception.php" name="library/Rediska/Serializer/Adapter/Exception.php"/>
+   <install as="Rediska/Serializer/Adapter/Interface.php" name="library/Rediska/Serializer/Adapter/Interface.php"/>
+   <install as="Rediska/Serializer/Adapter/Json.php" name="library/Rediska/Serializer/Adapter/Json.php"/>
+   <install as="Rediska/Serializer/Adapter/PhpSerialize.php" name="library/Rediska/Serializer/Adapter/PhpSerialize.php"/>
+   <install as="Rediska/Serializer/Adapter/ToString.php" name="library/Rediska/Serializer/Adapter/ToString.php"/>
+   <install as="Rediska/Serializer/Exception.php" name="library/Rediska/Serializer/Exception.php"/>
+   <install as="Rediska/Serializer.php" name="library/Rediska/Serializer.php"/>
+   <install as="Rediska/Transaction/AbortedException.php" name="library/Rediska/Transaction/AbortedException.php"/>
+   <install as="Rediska/Transaction/Exception.php" name="library/Rediska/Transaction/Exception.php"/>
+   <install as="Rediska/Transaction.php" name="library/Rediska/Transaction.php"/>
+   <install as="Rediska/Zend/Application/Resource/Rediska.php" name="library/Rediska/Zend/Application/Resource/Rediska.php"/>
+   <install as="Rediska/Zend/Auth/Adapter/Redis.php" name="library/Rediska/Zend/Auth/Adapter/Redis.php"/>
+   <install as="Rediska/Zend/Cache/Backend/Redis.php" name="library/Rediska/Zend/Cache/Backend/Redis.php"/>
+   <install as="Rediska/Zend/Log/Writer/Redis.php" name="library/Rediska/Zend/Log/Writer/Redis.php"/>
+   <install as="Rediska/Zend/Profiler/Firebug.php" name="library/Rediska/Zend/Profiler/Firebug.php"/>
+   <install as="Rediska/Zend/Queue/Adapter/Redis.php" name="library/Rediska/Zend/Queue/Adapter/Redis.php"/>
+   <install as="Rediska/Zend/Session/SaveHandler/Redis.php" name="library/Rediska/Zend/Session/SaveHandler/Redis.php"/>
+   <install as="Rediska/Zend/Session/Set.php" name="library/Rediska/Zend/Session/Set.php"/>
+   <install as="Rediska.php" name="library/Rediska.php"/>
+  </filelist>
+ </phprelease>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>0.5.6</release>
+    <api>0.5.6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-04-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+This is an beta release, see README.markdown for examples.
+   </notes>
+  </release>
+ </changelog>
+</package>
