@@ -7,10 +7,12 @@
     <l>MIT</l>
     <m>mischosch</m>
     <s>A set of decorators for Zend_Form</s>
-    <d>EasyBib_Form Decorator supports three modes: 
+    <d>EasyBib_Form Decorator supports four modes: 
  * Table 
  * Div 
  * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
 
 The default is Twitter Bootstrap.</d>
     <da>2011-10-11 17:05:02</da>

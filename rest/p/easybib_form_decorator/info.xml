@@ -5,10 +5,12 @@
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>MIT</l>
 <s>A set of decorators for Zend_Form</s>
-<d>EasyBib_Form Decorator supports three modes: 
+<d>EasyBib_Form Decorator supports four modes: 
  * Table 
  * Div 
  * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
 
 The default is Twitter Bootstrap.</d>
 <r xlink:href="/rest/r/easybib_form_decorator" />
