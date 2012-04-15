@@ -3,6 +3,7 @@
     <c>easybib.github.com/pear</c>
   <p>EasyBib_Form_Decorator</p>
   <p>Lagged_Loader</p>
+  <p>Lagged_Session_SaveHandler_Memcache</p>
   <p>Rediska</p>
   <p>StatsD</p>
 

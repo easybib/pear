@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2012-04-10T16:00:10+02:00</updated>
+    <updated>2012-04-15T19:31:42+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -17,14 +17,9 @@
         </author>
         <updated>2012-04-10T13:56:46+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Add BOOTSTRAP_MINIMAL style for cleaner markup usage of Bootstrap 2
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.3.1 (alpha)</title>
@@ -35,14 +30,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2012-02-14T15:18:32+01:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Changes for MessageFormatter helper to work nice with Bootstrap 2
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.3.0 (alpha)</title>
@@ -53,14 +43,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2012-02-12T21:33:44+01:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+First Bootstrap v2 support
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.2.0 (alpha)</title>
@@ -71,14 +56,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2012-02-12T21:14:26+01:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Support for FileElement and ZendX_JQuery_Form_Element_UiWidget
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.8 (alpha)</title>
@@ -89,14 +69,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2012-02-12T20:58:19+01:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Minor fixes
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.7 (alpha)</title>
@@ -107,14 +82,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-10-28T01:15:36+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Multi Decorator usage for radio buttons
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.6 (alpha)</title>
@@ -125,14 +95,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-10-12T16:23:41+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Automation of buildBootstrapErrorDecorators call and fixes for description,errors
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.5 (alpha)</title>
@@ -143,14 +108,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-10-11T17:05:02+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Add MultiCheckbox Decorator style
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.4 (alpha)</title>
@@ -161,14 +121,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-10-09T19:48:51+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Some Bugfixes
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.3 (alpha)</title>
@@ -179,14 +134,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-09-17T02:02:49+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Fix Submit/Cancel Button to support setAttrib(class)
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.2 (alpha)</title>
@@ -197,14 +147,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-09-14T21:15:03+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+detabed version
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.1 (alpha)</title>
@@ -215,14 +160,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-09-14T18:31:48+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Initial release (with small bugfix)
+ 
         </content>
     </entry>    <entry>
         <title>EasyBib_Form_Decorator 0.1.0 (alpha)</title>
@@ -233,14 +173,9 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-09-14T17:58:41+02:00</updated>
         <content>
-            EasyBib_Form Decorator supports four modes: 
- * Table 
- * Div 
- * Twitter Bootstrap 
-
- * Twitter Bootstrap Minimal 
-
-The default is Twitter Bootstrap.
+            
+Initial release
+ 
         </content>
     </entry>    <entry>
         <title>Lagged_Loader 0.5.0 (alpha)</title>
@@ -251,8 +186,10 @@ The default is Twitter Bootstrap.
         </author>
         <updated>2011-10-06T23:35:47+02:00</updated>
         <content>
-            A better autoloader for the Zend Framework: 
-http://github.com/lagged/Lagged_loader
+            
+* support Service_Foo and Module_Service_Foo 
+ * silence warnings
+ 
         </content>
     </entry>    <entry>
         <title>Lagged_Loader 0.4.1 (alpha)</title>
@@ -263,8 +200,10 @@ http://github.com/lagged/Lagged_loader
         </author>
         <updated>2011-09-28T18:16:00+02:00</updated>
         <content>
-            A better autoloader for the Zend Framework: 
-http://github.com/lagged/Lagged_loader
+            
+* bugfix in Lagged_LibraryLoader: when supplied via __construct(), appDir was not set 
+ * bugfix in Lagged_LibraryLoader: app dir was assuming it contained 'app'
+ 
         </content>
     </entry>    <entry>
         <title>Lagged_Loader 0.4.0 (alpha)</title>
@@ -275,8 +214,9 @@ http://github.com/lagged/Lagged_loader
         </author>
         <updated>2011-09-28T14:52:11+02:00</updated>
         <content>
-            A better autoloader for the Zend Framework: 
-http://github.com/lagged/Lagged_loader
+            
+* added Lagged_PEARLoader (simple, lean autoloader for PEAR)
+ 
         </content>
     </entry>    <entry>
         <title>Lagged_Loader 0.3.0 (alpha)</title>
@@ -287,8 +227,10 @@ http://github.com/lagged/Lagged_loader
         </author>
         <updated>2011-09-28T14:12:31+02:00</updated>
         <content>
-            A better autoloader for the Zend Framework: 
-http://github.com/lagged/Lagged_loader
+            
+* small bugfixes in the loader code (play nice with the autoloader chain)
+ * load forms (from modules)
+ 
         </content>
     </entry>    <entry>
         <title>Lagged_Loader 0.2.0 (alpha)</title>
@@ -299,8 +241,9 @@ http://github.com/lagged/Lagged_loader
         </author>
         <updated>2011-09-28T12:52:45+02:00</updated>
         <content>
-            A better autoloader for the Zend Framework: 
-http://github.com/lagged/Lagged_loader
+            
+Initial release. (just fixing PEAR version to match tag on github)
+ 
         </content>
     </entry>    <entry>
         <title>Lagged_Loader 0.1.0 (alpha)</title>
@@ -311,8 +254,22 @@ http://github.com/lagged/Lagged_loader
         </author>
         <updated>2011-09-28T12:20:50+02:00</updated>
         <content>
-            A better autoloader for the Zend Framework: 
-http://github.com/lagged/Lagged_loader
+            
+Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Lagged_Session_SaveHandler_Memcache 0.5.0 (alpha)</title>
+        <link href="http://easybib.github.com/pear/get/Lagged_Session_SaveHandler_Memcache-0.5.0.tgz" />
+        <id>http://easybib.github.com/pear/get/Lagged_Session_SaveHandler_Memcache-0.5.0.tgz</id>
+        <author>
+            <name>till</name>
+        </author>
+        <updated>2012-04-15T17:14:20+02:00</updated>
+        <content>
+            
+Initial release.
+ 
         </content>
     </entry>    <entry>
         <title>Rediska 0.5.6 (beta)</title>
@@ -323,12 +280,9 @@ http://github.com/lagged/Lagged_loader
         </author>
         <updated>2011-04-13T12:57:05+02:00</updated>
         <content>
-            Redis is an advanced fast key-value database written in C. It can be used like memcached, in front of a traditional 
-database, or on its own thanks to the fact that the in-memory datasets are not volatile but instead persisted on disk. 
-One of the cool features is that you can store not only strings, but lists and sets with atomic operations to push/pop 
-elements.
-
-More information and documentation on homepage: http://rediska.geometria-lab.net
+            
+This is an beta release, see README.markdown for examples.
+ 
         </content>
     </entry>    <entry>
         <title>StatsD 0.1.0 (alpha)</title>
@@ -339,7 +293,9 @@ More information and documentation on homepage: http://rediska.geometria-lab.net
         </author>
         <updated>2012-02-14T17:53:26+01:00</updated>
         <content>
-            php-statsd is a PHP client for Etsy's StatsD!
+            
+Initial release!
+ 
         </content>
     </entry>
 </feed>

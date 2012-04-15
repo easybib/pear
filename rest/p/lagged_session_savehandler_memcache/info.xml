@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Lagged_Session_SaveHandler_Memcache</n>
+<c>easybib.github.com/pear</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>New BSD License</l>
+<s>A Memcache-MySQL-based session handler for Zend Framework (1)</s>
+<d>Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup</d>
+<r xlink:href="/rest/r/lagged_session_savehandler_memcache" />
+</p>
