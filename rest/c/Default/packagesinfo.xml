@@ -220,6 +220,30 @@ http://github.com/lagged/Lagged_loader</d>
 
     </pi>    <pi>
         <p>
+            <n>PEAR2_Services_HuffPo</n>
+            <c>easybib.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD</l>
+            <s>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</s>
+            <d>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</d>
+            <r xlink:href="/rest/r/pear2_services_huffpo" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.4";}s:7:"package";a:2:{s:4:"name";s:13:"HTTP_Request2";s:7:"channel";s:12:"pear.php.net";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>Rediska</n>
             <c>easybib.github.com/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>

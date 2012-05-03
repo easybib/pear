@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2012-04-15T19:31:42+02:00</updated>
+    <updated>2012-05-03T18:09:33+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -269,6 +269,19 @@ Initial release.
         <content>
             
 Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>PEAR2_Services_HuffPo 0.1.0 (alpha)</title>
+        <link href="http://easybib.github.com/pear/get/PEAR2_Services_HuffPo-0.1.0.tgz" />
+        <id>http://easybib.github.com/pear/get/PEAR2_Services_HuffPo-0.1.0.tgz</id>
+        <author>
+            <name>till</name>
+        </author>
+        <updated>2012-05-03T16:06:00+02:00</updated>
+        <content>
+            
+Initial release!
  
         </content>
     </entry>    <entry>
