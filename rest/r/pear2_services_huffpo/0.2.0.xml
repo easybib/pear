@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/pear2_services_huffpo">PEAR2_Services_HuffPo</p>
+    <c>easybib.github.com/pear</c>
+    <v>0.2.0</v>
+    <st>alpha</st>
+    <l>BSD</l>
+    <m>till</m>
+    <s>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</s>
+    <d>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</d>
+    <da>2012-05-03 22:59:09</da>
+    <n>
+Partner support.
+ </n>
+    <f>3977</f>
+    <g>http://easybib.github.com/pear/get/PEAR2_Services_HuffPo-0.2.0</g>
+    <x xlink:href="package.0.2.0.xml"/>
+</r>
