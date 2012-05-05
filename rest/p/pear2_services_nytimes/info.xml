@@ -4,7 +4,7 @@
 <c>easybib.github.com/pear</c>
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>BSD</l>
-<s>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</s>
-<d>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</d>
+<s>An API wrapper for the NYTimes APIs.</s>
+<d>An API wrapper for the NYTimes APIs.</d>
 <r xlink:href="/rest/r/pear2_services_nytimes" />
 </p>

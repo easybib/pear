@@ -8,8 +8,8 @@
     <st>alpha</st>
     <l>BSD</l>
     <m>till</m>
-    <s>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</s>
-    <d>An API wrapper to retrieve meta data of articles on huffingtonpost.com.</d>
+    <s>An API wrapper for the NYTimes APIs.</s>
+    <d>An API wrapper for the NYTimes APIs.</d>
     <da>2012-05-05 17:33:48</da>
     <n>
 Bugfix (installation)

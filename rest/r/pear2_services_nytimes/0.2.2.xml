@@ -2,17 +2,17 @@
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/pear2_services_nytimes">PEAR2_Services_NYTimes</p>
     <c>easybib.github.com/pear</c>
-    <v>0.2.1</v>
+    <v>0.2.2</v>
     <st>alpha</st>
     <l>BSD</l>
     <m>till</m>
     <s>An API wrapper for the NYTimes APIs.</s>
     <d>An API wrapper for the NYTimes APIs.</d>
-    <da>2012-05-05 17:33:48</da>
+    <da>2012-05-05 17:37:48</da>
     <n>
-Bugfix (installation)
+Bugfix (description :))
  </n>
-    <f>17493</f>
-    <g>http://easybib.github.com/pear/get/PEAR2_Services_NYTimes-0.2.1</g>
-    <x xlink:href="package.0.2.1.xml"/>
+    <f>17476</f>
+    <g>http://easybib.github.com/pear/get/PEAR2_Services_NYTimes-0.2.2</g>
+    <x xlink:href="package.0.2.2.xml"/>
 </r>
