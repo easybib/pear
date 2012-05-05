@@ -5,6 +5,7 @@
   <p>Lagged_Loader</p>
   <p>Lagged_Session_SaveHandler_Memcache</p>
   <p>PEAR2_Services_HuffPo</p>
+  <p>PEAR2_Services_NYTimes</p>
   <p>Rediska</p>
   <p>StatsD</p>
 
