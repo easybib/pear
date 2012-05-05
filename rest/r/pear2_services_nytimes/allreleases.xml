@@ -3,6 +3,10 @@
     <p>PEAR2_Services_NYTimes</p>
     <c>easybib.github.com/pear</c>
     <r>
+        <v>0.2.3</v>
+        <s>alpha</s>
+    </r>
+    <r>
         <v>0.2.2</v>
         <s>alpha</s>
     </r>
