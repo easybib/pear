@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>EasyBib_Core_LoadConfig</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>A configuration loader for Zend Framework (1).</summary>
+ <description>See README.md!</description>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@lagged.biz</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-05-09</date>
+ <time>14:41:30</time>
+ <version>
+  <release>0.5.0</release>
+  <api>0.5.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+Initial release.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c923a73a4f29ffe593630b1e0df9d0cc" name="scripts/travis-deps.sh" role="data" />
+   <file baseinstalldir="/" md5sum="ff7126183d7de4b8935c704f38e943f4" name="src/EasyBib/Core/LoadConfig.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a3cea47b7ca1637106ec41e867172285" name="tests/EasyBib/Core/Test/LoadConfigTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="1eaeef98ed5a7574f8749000a96120e1" name="tests/fixtures/app/etc/couchdb.ini" role="test" />
+   <file baseinstalldir="/" md5sum="1829ab2fc20d9ede517e0aff826b5a65" name="tests/fixtures/app/modules/bar/configs/redis.ini" role="test" />
+   <file baseinstalldir="/" md5sum="16fa4bdc1c10f830e35c025831e6ed81" name="tests/fixtures/app/modules/foo/etc/config.ini" role="test" />
+   <file baseinstalldir="/" md5sum="04df766f9d4f31b5f1f8e36b662eb641" name="tests/TestInit.php" role="test" />
+   <file baseinstalldir="/" md5sum="00984df60a4798b8c1ff8032f3089279" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.4</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+   <extension>
+    <name>apc</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>ZF</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.11.11</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="EasyBib/Core/LoadConfig.php" name="src/EasyBib/Core/LoadConfig.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-05-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+ </changelog>
+</package>
