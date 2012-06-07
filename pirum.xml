@@ -4,4 +4,5 @@
     <summary>easybib's PEAR Channel Server</summary>
     <alias>easybib</alias>
     <url>http://easybib.github.com/pear</url>
+    <mirror>http://pear.deploy.easybib.com</mirror>
 </server>
