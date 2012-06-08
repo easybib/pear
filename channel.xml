@@ -12,13 +12,5 @@
                 <baseurl type="REST1.3">http://easybib.github.com/pear/rest/</baseurl>
             </rest>
         </primary>
-        <mirror host="http://pear.deploy.easybib.com">
-            <rest>
-                <baseurl type="REST1.0">http://pear.deploy.easybib.com/rest/</baseurl>
-                <baseurl type="REST1.1">http://pear.deploy.easybib.com/rest/</baseurl>
-                <baseurl type="REST1.2">http://pear.deploy.easybib.com/rest/</baseurl>
-                <baseurl type="REST1.3">http://pear.deploy.easybib.com/rest/</baseurl>
-            </rest>
-        </mirror>
     </servers>
 </channel>
