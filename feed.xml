@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2012-06-08T15:02:03+02:00</updated>
+    <updated>2012-08-28T14:35:20+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -269,6 +269,19 @@ Initial release. (just fixing PEAR version to match tag on github)
         <content>
             
 Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Lagged_Session_SaveHandler_Memcache 0.6.0 (beta)</title>
+        <link href="http://easybib.github.com/pear/get/Lagged_Session_SaveHandler_Memcache-0.6.0.tgz" />
+        <id>http://easybib.github.com/pear/get/Lagged_Session_SaveHandler_Memcache-0.6.0.tgz</id>
+        <author>
+            <name>till</name>
+        </author>
+        <updated>2012-08-28T12:29:14+02:00</updated>
+        <content>
+            
+Refactored MySQL usage inside the objects to avoid premature connecting to the mysqld.
  
         </content>
     </entry>    <entry>

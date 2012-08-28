@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Lagged_Session_SaveHandler_Memcache</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>A Memcache-MySQL-based session handler for Zend Framework (1)</summary>
+ <description>Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup</description>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@lagged.biz</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-08-28</date>
+ <time>12:29:14</time>
+ <version>
+  <release>0.6.0</release>
+  <api>0.6.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+Refactored MySQL usage inside the objects to avoid premature connecting to the mysqld.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="a97ff92bb06186d73033f4e4c89d49c2" name="scripts/travis-deps.sh" role="data" />
+   <file baseinstalldir="/" md5sum="cb0c670a38adb97db9547d6a49d5232a" name="scripts/vm-setup.sh" role="data" />
+   <file baseinstalldir="/" md5sum="aa7516253e6e496122e912e4109268fe" name="src/Lagged/Session/SaveHandler/Memcache.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b0914bc97ad485bef2ec89c8f9b07748" name="src/Lagged/Session/SaveHandler/Mysql.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6e72480cd04e004ba7f8cbae47b86f15" name="src/Lagged/Session/Autoload.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="82a8c3e6fd43016758ed2e3306851a4f" name="src/Lagged/Session/BaseAbstract.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="71136a0939f8ea70abaf88e582dc28e8" name="src/Lagged/Session/CacheSetup.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b24c212ce7125b32192d74ae87b7642a" name="src/Lagged/Session/Helper.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="10180020d1d58f559b3f9ed05d74c30b" name="src/Lagged/Session/MysqlWrapper.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e40d094e8f541b86edb0770d4743a64a" name="tests/Lagged/Test/Session/SaveHandler/MemcacheTestCase.php" role="test" />
+   <file baseinstalldir="/" md5sum="352a0253130649211d4aaa9357792bf2" name="tests/TestInit.php" role="test" />
+   <file baseinstalldir="/" md5sum="a35322b0dc4213092f4db72250df914d" name="var/session.sql" role="data" />
+   <file baseinstalldir="/" md5sum="0ba638c3e88687cada7a97dd87c016d0" name="CHANGELOG.md" role="data" />
+   <file baseinstalldir="/" md5sum="83a3a7317c2b039cd6bed28796afaa69" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.4</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+   <extension>
+    <name>memcache</name>
+   </extension>
+   <extension>
+    <name>mysqli</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>ZF</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.11.11</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="Lagged/Session/Autoload.php" name="src/Lagged/Session/Autoload.php" />
+   <install as="Lagged/Session/BaseAbstract.php" name="src/Lagged/Session/BaseAbstract.php" />
+   <install as="Lagged/Session/CacheSetup.php" name="src/Lagged/Session/CacheSetup.php" />
+   <install as="Lagged/Session/Helper.php" name="src/Lagged/Session/Helper.php" />
+   <install as="Lagged/Session/MysqlWrapper.php" name="src/Lagged/Session/MysqlWrapper.php" />
+   <install as="Lagged/Session/SaveHandler/Memcache.php" name="src/Lagged/Session/SaveHandler/Memcache.php" />
+   <install as="Lagged/Session/SaveHandler/Mysql.php" name="src/Lagged/Session/SaveHandler/Mysql.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-04-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.0</release>
+    <api>0.6.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-08-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+Refactored MySQL usage inside the objects to avoid premature connecting to the mysqld.
+   </notes>
+  </release>
+ </changelog>
+</package>
