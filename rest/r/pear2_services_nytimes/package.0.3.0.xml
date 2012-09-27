@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PEAR2_Services_NYTimes</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>An API wrapper for the NYTimes APIs.</summary>
+ <description>An API wrapper for the NYTimes APIs.</description>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-09-27</date>
+ <time>17:39:32</time>
+ <version>
+  <release>0.3.0</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+ <notes>
+Bugfix (when an articlesearch returns no results)
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="821b06caa159973f59f332940f3a1422" name="src/PEAR2/Services/NYTimes/Articlesearch.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2c9d05fe7f9f5383dda8f18f4a524008" name="src/PEAR2/Services/NYTimes/Base.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c43c7312a1aadee432f25f05be76ae2d" name="src/PEAR2/Services/NYTimes/Main.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ac160c2e7e5be01520c045edbb2c1f51" name="src/PEAR2/Services/NYTimes/Newswire.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1de9596bfaa1c3e7b50ca036c98e3cff" name="src/PEAR2/Services/NYTimes/NYTimesInterface.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8ce1b7945357e673931e0e4b30efa565" name="tests/fixtures/articlesearch/v1/by-url-no-result.php" role="test" />
+   <file baseinstalldir="/" md5sum="539d2cece3c14e95b35a572f1ef5de4e" name="tests/fixtures/articlesearch/v1/by-url.php" role="test" />
+   <file baseinstalldir="/" md5sum="a34361b89b6fe66503a9ed45e2706582" name="tests/fixtures/newswire/v3/get-items.php" role="test" />
+   <file baseinstalldir="/" md5sum="7745fa688b137324427160d290b78338" name="tests/fixtures/newswire/v3/get-sections.php" role="test" />
+   <file baseinstalldir="/" md5sum="4c1d922688e65f8cd9530175c723331c" name="tests/fixtures/newswire/v3/shuttle-article-sphp.php" role="test" />
+   <file baseinstalldir="/" md5sum="4de5eb789eb7508aa53d7f49c5712ccc" name="tests/fixtures/newswire/v3/shuttle-article-xml.php" role="test" />
+   <file baseinstalldir="/" md5sum="43ad34ef5b44fb6c5be27a2b692ee74d" name="tests/fixtures/newswire/v3/shuttle-article.php" role="test" />
+   <file baseinstalldir="/" md5sum="bc274ecc11ad86a297334c05630a4658" name="tests/PEAR2/Services/NYTimes/Test/ArticlesearchTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="844a8d917c9e76cc9ae2485e73d516cd" name="tests/PEAR2/Services/NYTimes/Test/BaseTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="f488eb77736fd9bcd797a19ed9e814c2" name="tests/PEAR2/Services/NYTimes/Test/MainTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="3b586923d0a4e5c90445622f1a8819f6" name="tests/PEAR2/Services/NYTimes/Test/NewswireTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="aacfe07f7ea9e4b5762163379b404708" name="tests/PEAR2/Services/NYTimes/Test/TestCase.php" role="test" />
+   <file baseinstalldir="/" md5sum="ba129c417bddec9a4c0133c541020b3f" name="tests/TestInit.php" role="test" />
+   <file baseinstalldir="/" md5sum="27f2ece05049114f4e5eacc3f78d8ef1" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.4</min>
+   </pearinstaller>
+   <package>
+    <name>HTTP_Request2</name>
+    <channel>pear.php.net</channel>
+   </package>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="PEAR2/Services/NYTimes/Articlesearch.php" name="src/PEAR2/Services/NYTimes/Articlesearch.php" />
+   <install as="PEAR2/Services/NYTimes/Base.php" name="src/PEAR2/Services/NYTimes/Base.php" />
+   <install as="PEAR2/Services/NYTimes/Main.php" name="src/PEAR2/Services/NYTimes/Main.php" />
+   <install as="PEAR2/Services/NYTimes/NYTimesInterface.php" name="src/PEAR2/Services/NYTimes/NYTimesInterface.php" />
+   <install as="PEAR2/Services/NYTimes/Newswire.php" name="src/PEAR2/Services/NYTimes/Newswire.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-05-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Making a pear compatible package.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-05-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Bugfix (installation)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.2</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-05-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Bugfix (description :))
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.3</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-05-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Bugfix (error handling)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-09-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+   <notes>
+Bugfix (when an articlesearch returns no results)
+   </notes>
+  </release>
+ </changelog>
+</package>

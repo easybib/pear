@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/pear2_services_nytimes">PEAR2_Services_NYTimes</p>
+    <c>easybib.github.com/pear</c>
+    <v>0.3.0</v>
+    <a>0.3.0</a>
+    <mp>5.3.0</mp>
+    <st>alpha</st>
+    <l>BSD</l>
+    <m>till</m>
+    <s>An API wrapper for the NYTimes APIs.</s>
+    <d>An API wrapper for the NYTimes APIs.</d>
+    <da>2012-09-27 17:39:32</da>
+    <n>
+Bugfix (when an articlesearch returns no results)
+ </n>
+    <f>17725</f>
+    <g>http://easybib.github.com/pear/get/PEAR2_Services_NYTimes-0.3.0</g>
+    <x xlink:href="package.0.3.0.xml"/>
+</r>

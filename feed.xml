@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2012-08-28T14:35:20+02:00</updated>
+    <updated>2012-09-27T19:43:18+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -321,6 +321,19 @@ Partner support.
         <content>
             
 Initial release!
+ 
+        </content>
+    </entry>    <entry>
+        <title>PEAR2_Services_NYTimes 0.3.0 (alpha)</title>
+        <link href="http://easybib.github.com/pear/get/PEAR2_Services_NYTimes-0.3.0.tgz" />
+        <id>http://easybib.github.com/pear/get/PEAR2_Services_NYTimes-0.3.0.tgz</id>
+        <author>
+            <name>till</name>
+        </author>
+        <updated>2012-09-27T17:39:32+02:00</updated>
+        <content>
+            
+Bugfix (when an articlesearch returns no results)
  
         </content>
     </entry>    <entry>
