@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Lagged_Test_PHPUnit_ControllerTestCase_Listener</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>Just listen!</summary>
+ <description>A PHPUnit listener for Zend_Test_PHPUnit_ControllerTestCase</description>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-10-26</date>
+ <time>14:16:25</time>
+ <version>
+  <release>0.5.0</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+ <notes>
+* 0.5.0 pre-release (this was uncommitted for a year, just pushing it out)
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="e024663a0fc924b3b21b1fd1aa7a8e5c" name="/Lagged/Test/PHPUnit/ControllerTestCase/Listener.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="Lagged_Test_PHPUnit_ControllerTestCase_Listener" md5sum="82579068a2869f6eb6be1041c57acc3d" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>3.4.15</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>

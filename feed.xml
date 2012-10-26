@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2012-10-02T19:51:35+02:00</updated>
+    <updated>2012-10-26T16:16:47+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -308,6 +308,19 @@ Refactored MySQL usage inside the objects to avoid premature connecting to the m
         <content>
             
 Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Lagged_Test_PHPUnit_ControllerTestCase_Listener 0.5.0 (alpha)</title>
+        <link href="http://easybib.github.com/pear/get/Lagged_Test_PHPUnit_ControllerTestCase_Listener-0.5.0.tgz" />
+        <id>http://easybib.github.com/pear/get/Lagged_Test_PHPUnit_ControllerTestCase_Listener-0.5.0.tgz</id>
+        <author>
+            <name>till</name>
+        </author>
+        <updated>2012-10-26T14:16:25+02:00</updated>
+        <content>
+            
+* 0.5.0 pre-release (this was uncommitted for a year, just pushing it out)
  
         </content>
     </entry>    <entry>

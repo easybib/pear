@@ -4,6 +4,7 @@
   <p xlink:href="/rest/p/easybib_form_decorator">EasyBib_Form_Decorator</p>
   <p xlink:href="/rest/p/lagged_loader">Lagged_Loader</p>
   <p xlink:href="/rest/p/lagged_session_savehandler_memcache">Lagged_Session_SaveHandler_Memcache</p>
+  <p xlink:href="/rest/p/lagged_test_phpunit_controllertestcase_listener">Lagged_Test_PHPUnit_ControllerTestCase_Listener</p>
   <p xlink:href="/rest/p/pear2_services_huffpo">PEAR2_Services_HuffPo</p>
   <p xlink:href="/rest/p/pear2_services_nytimes">PEAR2_Services_NYTimes</p>
   <p xlink:href="/rest/p/rediska">Rediska</p>

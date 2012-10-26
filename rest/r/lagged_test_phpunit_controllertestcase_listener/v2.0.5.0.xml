@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/lagged_test_phpunit_controllertestcase_listener">Lagged_Test_PHPUnit_ControllerTestCase_Listener</p>
+    <c>easybib.github.com/pear</c>
+    <v>0.5.0</v>
+    <a>0.3.0</a>
+    <mp>5.0.0</mp>
+    <st>alpha</st>
+    <l>The BSD License</l>
+    <m>till</m>
+    <s>Just listen!</s>
+    <d>A PHPUnit listener for Zend_Test_PHPUnit_ControllerTestCase</d>
+    <da>2012-10-26 14:16:25</da>
+    <n>
+* 0.5.0 pre-release (this was uncommitted for a year, just pushing it out)
+ </n>
+    <f>3171</f>
+    <g>http://easybib.github.com/pear/get/Lagged_Test_PHPUnit_ControllerTestCase_Listener-0.5.0</g>
+    <x xlink:href="package.0.5.0.xml"/>
+</r>

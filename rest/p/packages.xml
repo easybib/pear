@@ -5,6 +5,7 @@
   <p>EasyBib_Form_Decorator</p>
   <p>Lagged_Loader</p>
   <p>Lagged_Session_SaveHandler_Memcache</p>
+  <p>Lagged_Test_PHPUnit_ControllerTestCase_Listener</p>
   <p>PEAR2_Services_HuffPo</p>
   <p>PEAR2_Services_NYTimes</p>
   <p>Rediska</p>
