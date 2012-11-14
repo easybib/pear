@@ -1,0 +1,1236 @@
+{
+    "pear-easybib\/EasyBib_Core_LoadConfig": {
+        "versions": {
+            "0.5.0": {
+                "name": "pear-easybib\/EasyBib_Core_LoadConfig",
+                "description": "A configuration loader for Zend Framework (1).",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Core_LoadConfig-0.5.0.tgz"
+                },
+                "version": "0.5.0",
+                "time": "2012-05-09T14:41:30+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "ext-spl": "*",
+                    "ext-apc": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.11.11"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/EasyBib\/Core\/LoadConfig.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/EasyBib_Core_LoadConfig",
+        "description": "A configuration loader for Zend Framework (1).",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@lagged.biz",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/EasyBib_Form_Decorator": {
+        "versions": {
+            "0.3.2": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.3.2.tgz"
+                },
+                "version": "0.3.2",
+                "time": "2012-04-10T13:56:46+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "examples",
+                        "3": "library\/EasyBib"
+                    }
+                }
+            },
+            "0.3.1": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.3.1.tgz"
+                },
+                "version": "0.3.1",
+                "time": "2012-02-14T15:18:32+01:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "examples",
+                        "3": "library\/EasyBib"
+                    }
+                }
+            },
+            "0.3.0": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.3.0.tgz"
+                },
+                "version": "0.3.0",
+                "time": "2012-02-12T21:33:44+01:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "examples",
+                        "3": "library\/EasyBib"
+                    }
+                }
+            },
+            "0.2.0": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-02-12T21:14:26+01:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "examples\/test.php",
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.8": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.8.tgz"
+                },
+                "version": "0.1.8",
+                "time": "2012-02-12T20:58:19+01:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "examples\/test.php",
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.7": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.7.tgz"
+                },
+                "version": "0.1.7",
+                "time": "2011-10-28T01:15:36+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.6": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.6.tgz"
+                },
+                "version": "0.1.6",
+                "time": "2011-10-12T16:23:41+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.5": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.5.tgz"
+                },
+                "version": "0.1.5",
+                "time": "2011-10-11T17:05:02+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.4": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.4.tgz"
+                },
+                "version": "0.1.4",
+                "time": "2011-10-09T19:48:51+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.3": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.3.tgz"
+                },
+                "version": "0.1.3",
+                "time": "2011-09-17T02:02:49+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.2": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.2.tgz"
+                },
+                "version": "0.1.2",
+                "time": "2011-09-14T21:15:03+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.1": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.1.tgz"
+                },
+                "version": "0.1.1",
+                "time": "2011-09-14T18:31:48+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            },
+            "0.1.0": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2011-09-14T17:58:41+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/EasyBib"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/EasyBib_Form_Decorator",
+        "description": "A set of decorators for Zend_Form",
+        "maintainers": [
+            {
+                "name": "Michael Scholl",
+                "email": "michael@sch0ll.de",
+                "homepage": ""
+            },
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@lagged.biz",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/Lagged_Loader": {
+        "versions": {
+            "0.5.0": {
+                "name": "pear-easybib\/Lagged_Loader",
+                "description": "A better autoloader for the Zend_Framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Loader-0.5.0.tgz"
+                },
+                "version": "0.5.0",
+                "time": "2011-10-06T23:35:47+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged"
+                    ]
+                }
+            },
+            "0.4.1": {
+                "name": "pear-easybib\/Lagged_Loader",
+                "description": "A better autoloader for the Zend_Framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Loader-0.4.1.tgz"
+                },
+                "version": "0.4.1",
+                "time": "2011-09-28T18:16:00+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged"
+                    ]
+                }
+            },
+            "0.4.0": {
+                "name": "pear-easybib\/Lagged_Loader",
+                "description": "A better autoloader for the Zend_Framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Loader-0.4.0.tgz"
+                },
+                "version": "0.4.0",
+                "time": "2011-09-28T14:52:11+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged"
+                    ]
+                }
+            },
+            "0.3.0": {
+                "name": "pear-easybib\/Lagged_Loader",
+                "description": "A better autoloader for the Zend_Framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Loader-0.3.0.tgz"
+                },
+                "version": "0.3.0",
+                "time": "2011-09-28T14:12:31+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged"
+                    ]
+                }
+            },
+            "0.2.0": {
+                "name": "pear-easybib\/Lagged_Loader",
+                "description": "A better autoloader for the Zend_Framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Loader-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2011-09-28T12:52:45+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged"
+                    ]
+                }
+            },
+            "0.1.0": {
+                "name": "pear-easybib\/Lagged_Loader",
+                "description": "A better autoloader for the Zend_Framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Loader-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2011-09-28T12:20:50+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/Lagged_Loader",
+        "description": "A better autoloader for the Zend_Framework.",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@lagged.biz",
+                "homepage": ""
+            },
+            {
+                "name": "Michael Scholl",
+                "email": "michael@sch0ll.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/Lagged_Session_SaveHandler_Memcache": {
+        "versions": {
+            "0.8.0b1": {
+                "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
+                "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Session_SaveHandler_Memcache-0.8.0b1.tgz"
+                },
+                "version": "0.8.0b1",
+                "time": "2012-11-14T21:28:08+01:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*",
+                    "ext-memcache": "*",
+                    "ext-mysqli": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.11.11"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged\/Session"
+                    ]
+                }
+            },
+            "0.7.0": {
+                "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
+                "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Session_SaveHandler_Memcache-0.7.0.tgz"
+                },
+                "version": "0.7.0",
+                "time": "2012-10-02T17:50:02+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*",
+                    "ext-memcache": "*",
+                    "ext-mysqli": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.11.11"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged\/Session"
+                    ]
+                }
+            },
+            "0.6.0": {
+                "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
+                "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Session_SaveHandler_Memcache-0.6.0.tgz"
+                },
+                "version": "0.6.0",
+                "time": "2012-08-28T12:29:14+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*",
+                    "ext-memcache": "*",
+                    "ext-mysqli": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.11.11"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged\/Session"
+                    ]
+                }
+            },
+            "0.5.0": {
+                "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
+                "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Session_SaveHandler_Memcache-0.5.0.tgz"
+                },
+                "version": "0.5.0",
+                "time": "2012-04-15T17:14:20+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*",
+                    "ext-memcache": "*",
+                    "ext-mysqli": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.11.11"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "src\/Lagged\/Session"
+                    }
+                }
+            }
+        },
+        "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
+        "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@lagged.biz",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/Lagged_Test_PHPUnit_ControllerTestCase_Listener": {
+        "versions": {
+            "0.5.0": {
+                "name": "pear-easybib\/Lagged_Test_PHPUnit_ControllerTestCase_Listener",
+                "description": "Just listen!",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Test_PHPUnit_ControllerTestCase_Listener-0.5.0.tgz"
+                },
+                "version": "0.5.0",
+                "time": "2012-10-26T14:16:25+02:00",
+                "require": {
+                    "php": ">=5.0.0",
+                    "pear-phpunit\/PHPUnit": ">=3.4.15"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Lagged\/Test\/PHPUnit\/ControllerTestCase\/Listener.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/Lagged_Test_PHPUnit_ControllerTestCase_Listener",
+        "description": "Just listen!",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/PEAR2_Services_HuffPo": {
+        "versions": {
+            "0.2.0": {
+                "name": "pear-easybib\/PEAR2_Services_HuffPo",
+                "description": "An API wrapper to retrieve meta data of articles on huffingtonpost.com.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_HuffPo-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-05-03T22:59:09+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/PEAR2\/Services\/HuffPo\/Request.php",
+                        "library\/PEAR2\/Services\/HuffPo.php"
+                    ]
+                }
+            },
+            "0.1.0": {
+                "name": "pear-easybib\/PEAR2_Services_HuffPo",
+                "description": "An API wrapper to retrieve meta data of articles on huffingtonpost.com.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_HuffPo-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2012-05-03T16:06:00+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/PEAR2\/Services\/HuffPo\/Request.php",
+                        "library\/PEAR2\/Services\/HuffPo.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/PEAR2_Services_HuffPo",
+        "description": "An API wrapper to retrieve meta data of articles on huffingtonpost.com.",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/PEAR2_Services_NYTimes": {
+        "versions": {
+            "0.3.0": {
+                "name": "pear-easybib\/PEAR2_Services_NYTimes",
+                "description": "An API wrapper for the NYTimes APIs.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_NYTimes-0.3.0.tgz"
+                },
+                "version": "0.3.0",
+                "time": "2012-09-27T17:39:32+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/PEAR2\/Services\/NYTimes"
+                    ]
+                }
+            },
+            "0.2.3": {
+                "name": "pear-easybib\/PEAR2_Services_NYTimes",
+                "description": "An API wrapper for the NYTimes APIs.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_NYTimes-0.2.3.tgz"
+                },
+                "version": "0.2.3",
+                "time": "2012-05-05T18:15:06+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/PEAR2\/Services\/NYTimes"
+                    ]
+                }
+            },
+            "0.2.2": {
+                "name": "pear-easybib\/PEAR2_Services_NYTimes",
+                "description": "An API wrapper for the NYTimes APIs.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_NYTimes-0.2.2.tgz"
+                },
+                "version": "0.2.2",
+                "time": "2012-05-05T17:37:48+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/PEAR2\/Services\/NYTimes"
+                    ]
+                }
+            },
+            "0.2.1": {
+                "name": "pear-easybib\/PEAR2_Services_NYTimes",
+                "description": "An API wrapper for the NYTimes APIs.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_NYTimes-0.2.1.tgz"
+                },
+                "version": "0.2.1",
+                "time": "2012-05-05T17:33:48+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/PEAR2\/Services\/NYTimes"
+                    ]
+                }
+            },
+            "0.2.0": {
+                "name": "pear-easybib\/PEAR2_Services_NYTimes",
+                "description": "An API wrapper for the NYTimes APIs.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/PEAR2_Services_NYTimes-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-05-05T17:23:39+02:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": "*",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/PEAR2\/Services\/NYTimes"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/PEAR2_Services_NYTimes",
+        "description": "An API wrapper for the NYTimes APIs.",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/Rediska": {
+        "versions": {
+            "0.5.6": {
+                "name": "pear-easybib\/Rediska",
+                "description": "Rediska (radish in Russian) - PHP client for Redis.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Rediska-0.5.6.tgz"
+                },
+                "version": "0.5.6",
+                "time": "2011-04-13T12:57:05+02:00",
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "suggest": {
+                    "pear-zfcampus\/zf": ">=1.10.2"
+                },
+                "authors": [
+                    {
+                        "name": "Ivan Shumkov",
+                        "email": "ivan@shumkov.ru",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Maxim Ivanov",
+                        "email": "maximiv@gmail.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Ryan Grenz",
+                        "email": "info@ryangrenz.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "library",
+                        "151": "scripts\/add_command_methods.php"
+                    }
+                }
+            }
+        },
+        "name": "pear-easybib\/Rediska",
+        "description": "Rediska (radish in Russian) - PHP client for Redis.",
+        "maintainers": [
+            {
+                "name": "Ivan Shumkov",
+                "email": "ivan@shumkov.ru",
+                "homepage": ""
+            },
+            {
+                "name": "Maxim Ivanov",
+                "email": "maximiv@gmail.com",
+                "homepage": ""
+            },
+            {
+                "name": "Ryan Grenz",
+                "email": "info@ryangrenz.com",
+                "homepage": ""
+            },
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-easybib\/StatsD": {
+        "versions": {
+            "0.1.0": {
+                "name": "pear-easybib\/StatsD",
+                "description": "php-statsd",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/StatsD-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2012-02-14T17:53:26+01:00",
+                "require": {
+                    "php": ">=5.2.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "examples\/test.php",
+                        "library\/StatsD.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-easybib\/StatsD",
+        "description": "php-statsd",
+        "maintainers": [
+            {
+                "name": "Till Klampaeckel",
+                "email": "till@lagged.biz",
+                "homepage": ""
+            }
+        ]
+    }
+}

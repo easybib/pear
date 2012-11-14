@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2012-10-26T16:16:47+02:00</updated>
+    <updated>2012-11-14T22:29:04+01:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -269,6 +269,19 @@ Initial release. (just fixing PEAR version to match tag on github)
         <content>
             
 Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Lagged_Session_SaveHandler_Memcache 0.8.0b1 (beta)</title>
+        <link href="http://easybib.github.com/pear/get/Lagged_Session_SaveHandler_Memcache-0.8.0b1.tgz" />
+        <id>http://easybib.github.com/pear/get/Lagged_Session_SaveHandler_Memcache-0.8.0b1.tgz</id>
+        <author>
+            <name>till</name>
+        </author>
+        <updated>2012-11-14T21:28:08+01:00</updated>
+        <content>
+            
+Allow us to disable persistence completely and only rely on Memcached for session storage.
  
         </content>
     </entry>    <entry>

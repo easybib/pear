@@ -3,6 +3,11 @@
     <p>Lagged_Session_SaveHandler_Memcache</p>
     <c>easybib.github.com/pear</c>
     <r>
+        <v>0.8.0b1</v>
+        <s>beta</s>
+        <m>5.2.0</m>
+    </r>
+    <r>
         <v>0.7.0</v>
         <s>beta</s>
         <m>5.2.0</m>
