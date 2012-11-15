@@ -731,6 +731,37 @@
     },
     "pear-easybib\/Lagged_Session_SaveHandler_Memcache": {
         "versions": {
+            "0.8.0b2": {
+                "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
+                "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/Lagged_Session_SaveHandler_Memcache-0.8.0b2.tgz"
+                },
+                "version": "0.8.0b2",
+                "time": "2012-11-15T03:53:30+01:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*",
+                    "ext-memcache": "*",
+                    "ext-mysqli": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.11.11"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Lagged\/Session"
+                    ]
+                }
+            },
             "0.8.0b1": {
                 "name": "pear-easybib\/Lagged_Session_SaveHandler_Memcache",
                 "description": "A Memcache-MySQL-based session handler for Zend Framework (1)",
