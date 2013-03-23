@@ -3,7 +3,7 @@
 <n>StatsD</n>
 <c>easybib.github.com/pear</c>
 <ca xlink:href="/rest/c/Default">Default</ca>
-<l>BSD</l>
+<l>MIT</l>
 <s>php-statsd</s>
 <d>php-statsd is a PHP client for Etsy's StatsD!</d>
 <r xlink:href="/rest/r/statsd" />

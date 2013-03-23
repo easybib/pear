@@ -420,7 +420,7 @@ More information and documentation on homepage: http://rediska.geometria-lab.net
             <n>StatsD</n>
             <c>easybib.github.com/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>BSD</l>
+            <l>MIT</l>
             <s>php-statsd</s>
             <d>php-statsd is a PHP client for Etsy's StatsD!</d>
             <r xlink:href="/rest/r/statsd" />
@@ -428,12 +428,20 @@ More information and documentation on homepage: http://rediska.geometria-lab.net
 
         <a>
             <r>
+                <v>0.2.0</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.1.0</v>
                 <s>alpha</s>
             </r>
 
         </a>
 
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0a7";}}}</d>
+        </deps>
         <deps>
             <v>0.1.0</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0a7";}}}</d>

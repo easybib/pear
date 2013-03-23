@@ -2,7 +2,7 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/statsd">StatsD</p>
     <c>easybib.github.com/pear</c>
-    <v>0.1.0</v>
+    <v>0.2.0</v>
     <a>0.1.0</a>
     <mp>5.2.0</mp>
     <st>alpha</st>
@@ -10,11 +10,11 @@
     <m>till</m>
     <s>php-statsd</s>
     <d>php-statsd is a PHP client for Etsy's StatsD!</d>
-    <da>2012-02-14 17:53:26</da>
+    <da>2013-03-23 21:56:39</da>
     <n>
-Initial release!
+Composer support.
  </n>
-    <f>2505</f>
-    <g>http://easybib.github.com/pear/get/StatsD-0.1.0</g>
-    <x xlink:href="package.0.1.0.xml"/>
+    <f>3053</f>
+    <g>http://easybib.github.com/pear/get/StatsD-0.2.0</g>
+    <x xlink:href="package.0.2.0.xml"/>
 </r>

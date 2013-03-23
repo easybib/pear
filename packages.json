@@ -1227,6 +1227,32 @@
     },
     "pear-easybib\/StatsD": {
         "versions": {
+            "0.2.0": {
+                "name": "pear-easybib\/StatsD",
+                "description": "php-statsd",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/StatsD-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2013-03-23T21:56:39+01:00",
+                "require": {
+                    "php": ">=5.2.0"
+                },
+                "authors": [
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "examples\/test.php",
+                        "library\/StatsD.php"
+                    ]
+                }
+            },
             "0.1.0": {
                 "name": "pear-easybib\/StatsD",
                 "description": "php-statsd",
