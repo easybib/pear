@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2013-03-23T22:58:21+01:00</updated>
+    <updated>2013-07-26T18:01:34+02:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -17,8 +17,31 @@
         </author>
         <updated>2012-05-09T14:41:30+02:00</updated>
         <content>
+            See README.md!
             
 Initial release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>EasyBib_Form_Decorator 0.4.1 (beta)</title>
+        <link href="http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.4.1.tgz" />
+        <id>http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.4.1.tgz</id>
+        <author>
+            <name>mischosch</name>
+        </author>
+        <updated>2013-07-26T15:59:36+02:00</updated>
+        <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
+            
+Small bugfixes:
+https://github.com/easybib/EasyBib_Form_Decorator/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed
  
         </content>
     </entry>    <entry>
@@ -30,6 +53,14 @@ Initial release.
         </author>
         <updated>2012-04-10T13:56:46+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Add BOOTSTRAP_MINIMAL style for cleaner markup usage of Bootstrap 2
  
@@ -43,6 +74,14 @@ Add BOOTSTRAP_MINIMAL style for cleaner markup usage of Bootstrap 2
         </author>
         <updated>2012-02-14T15:18:32+01:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Changes for MessageFormatter helper to work nice with Bootstrap 2
  
@@ -56,6 +95,14 @@ Changes for MessageFormatter helper to work nice with Bootstrap 2
         </author>
         <updated>2012-02-12T21:33:44+01:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 First Bootstrap v2 support
  
@@ -69,6 +116,14 @@ First Bootstrap v2 support
         </author>
         <updated>2012-02-12T21:14:26+01:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Support for FileElement and ZendX_JQuery_Form_Element_UiWidget
  
@@ -82,6 +137,14 @@ Support for FileElement and ZendX_JQuery_Form_Element_UiWidget
         </author>
         <updated>2012-02-12T20:58:19+01:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Minor fixes
  
@@ -95,6 +158,14 @@ Minor fixes
         </author>
         <updated>2011-10-28T01:15:36+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Multi Decorator usage for radio buttons
  
@@ -108,6 +179,14 @@ Multi Decorator usage for radio buttons
         </author>
         <updated>2011-10-12T16:23:41+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Automation of buildBootstrapErrorDecorators call and fixes for description,errors
  
@@ -121,6 +200,14 @@ Automation of buildBootstrapErrorDecorators call and fixes for description,error
         </author>
         <updated>2011-10-11T17:05:02+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Add MultiCheckbox Decorator style
  
@@ -134,6 +221,14 @@ Add MultiCheckbox Decorator style
         </author>
         <updated>2011-10-09T19:48:51+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Some Bugfixes
  
@@ -147,6 +242,14 @@ Some Bugfixes
         </author>
         <updated>2011-09-17T02:02:49+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Fix Submit/Cancel Button to support setAttrib(class)
  
@@ -160,6 +263,14 @@ Fix Submit/Cancel Button to support setAttrib(class)
         </author>
         <updated>2011-09-14T21:15:03+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 detabed version
  
@@ -173,6 +284,14 @@ detabed version
         </author>
         <updated>2011-09-14T18:31:48+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Initial release (with small bugfix)
  
@@ -186,6 +305,14 @@ Initial release (with small bugfix)
         </author>
         <updated>2011-09-14T17:58:41+02:00</updated>
         <content>
+            EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is 'Twitter Bootstrap'.
             
 Initial release
  
@@ -199,6 +326,8 @@ Initial release
         </author>
         <updated>2011-10-06T23:35:47+02:00</updated>
         <content>
+            A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader
             
 * support Service_Foo and Module_Service_Foo 
  * silence warnings
@@ -213,6 +342,8 @@ Initial release
         </author>
         <updated>2011-09-28T18:16:00+02:00</updated>
         <content>
+            A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader
             
 * bugfix in Lagged_LibraryLoader: when supplied via __construct(), appDir was not set 
  * bugfix in Lagged_LibraryLoader: app dir was assuming it contained 'app'
@@ -227,6 +358,8 @@ Initial release
         </author>
         <updated>2011-09-28T14:52:11+02:00</updated>
         <content>
+            A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader
             
 * added Lagged_PEARLoader (simple, lean autoloader for PEAR)
  
@@ -240,6 +373,8 @@ Initial release
         </author>
         <updated>2011-09-28T14:12:31+02:00</updated>
         <content>
+            A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader
             
 * small bugfixes in the loader code (play nice with the autoloader chain)
  * load forms (from modules)
@@ -254,6 +389,8 @@ Initial release
         </author>
         <updated>2011-09-28T12:52:45+02:00</updated>
         <content>
+            A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader
             
 Initial release. (just fixing PEAR version to match tag on github)
  
@@ -267,6 +404,8 @@ Initial release. (just fixing PEAR version to match tag on github)
         </author>
         <updated>2011-09-28T12:20:50+02:00</updated>
         <content>
+            A better autoloader for the Zend Framework: 
+http://github.com/lagged/Lagged_loader
             
 Initial release.
  
@@ -280,6 +419,9 @@ Initial release.
         </author>
         <updated>2012-11-15T03:53:30+01:00</updated>
         <content>
+            Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup
             
 Allow us to disable persistence completely and only rely on Memcached for session storage.
  
@@ -293,6 +435,9 @@ Allow us to disable persistence completely and only rely on Memcached for sessio
         </author>
         <updated>2012-11-14T21:28:08+01:00</updated>
         <content>
+            Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup
             
 Allow us to disable persistence completely and only rely on Memcached for session storage.
  
@@ -306,6 +451,9 @@ Allow us to disable persistence completely and only rely on Memcached for sessio
         </author>
         <updated>2012-10-02T17:50:02+02:00</updated>
         <content>
+            Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup
             
 Refactored error handling.
  
@@ -319,6 +467,9 @@ Refactored error handling.
         </author>
         <updated>2012-08-28T12:29:14+02:00</updated>
         <content>
+            Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup
             
 Refactored MySQL usage inside the objects to avoid premature connecting to the mysqld.
  
@@ -332,6 +483,9 @@ Refactored MySQL usage inside the objects to avoid premature connecting to the m
         </author>
         <updated>2012-04-15T17:14:20+02:00</updated>
         <content>
+            Lagged_Session_SaveHandler_Memcache is a session handler for the Zend Framework (1) which supports: 
+ * Memcached (via ext/memcache) as a primary backend
+ * MySQL (via ext/mysqli with mysqlnd) for backup
             
 Initial release.
  
@@ -345,6 +499,7 @@ Initial release.
         </author>
         <updated>2012-10-26T14:16:25+02:00</updated>
         <content>
+            A PHPUnit listener for Zend_Test_PHPUnit_ControllerTestCase
             
 * 0.5.0 pre-release (this was uncommitted for a year, just pushing it out)
  
@@ -358,6 +513,7 @@ Initial release.
         </author>
         <updated>2012-05-03T22:59:09+02:00</updated>
         <content>
+            An API wrapper to retrieve meta data of articles on huffingtonpost.com.
             
 Partner support.
  
@@ -371,6 +527,7 @@ Partner support.
         </author>
         <updated>2012-05-03T16:06:00+02:00</updated>
         <content>
+            An API wrapper to retrieve meta data of articles on huffingtonpost.com.
             
 Initial release!
  
@@ -384,6 +541,7 @@ Initial release!
         </author>
         <updated>2012-09-27T17:39:32+02:00</updated>
         <content>
+            An API wrapper for the NYTimes APIs.
             
 Bugfix (when an articlesearch returns no results)
  
@@ -397,6 +555,7 @@ Bugfix (when an articlesearch returns no results)
         </author>
         <updated>2012-05-05T18:15:06+02:00</updated>
         <content>
+            An API wrapper for the NYTimes APIs.
             
 Bugfix (error handling)
  
@@ -410,6 +569,7 @@ Bugfix (error handling)
         </author>
         <updated>2012-05-05T17:37:48+02:00</updated>
         <content>
+            An API wrapper for the NYTimes APIs.
             
 Bugfix (description :))
  
@@ -423,6 +583,7 @@ Bugfix (description :))
         </author>
         <updated>2012-05-05T17:33:48+02:00</updated>
         <content>
+            An API wrapper for the NYTimes APIs.
             
 Bugfix (installation)
  
@@ -436,6 +597,7 @@ Bugfix (installation)
         </author>
         <updated>2012-05-05T17:23:39+02:00</updated>
         <content>
+            An API wrapper for the NYTimes APIs.
             
 Making a pear compatible package.
  
@@ -449,6 +611,12 @@ Making a pear compatible package.
         </author>
         <updated>2011-04-13T12:57:05+02:00</updated>
         <content>
+            Redis is an advanced fast key-value database written in C. It can be used like memcached, in front of a traditional 
+database, or on its own thanks to the fact that the in-memory datasets are not volatile but instead persisted on disk. 
+One of the cool features is that you can store not only strings, but lists and sets with atomic operations to push/pop 
+elements.
+
+More information and documentation on homepage: http://rediska.geometria-lab.net
             
 This is an beta release, see README.markdown for examples.
  
@@ -462,6 +630,7 @@ This is an beta release, see README.markdown for examples.
         </author>
         <updated>2013-03-23T21:56:39+01:00</updated>
         <content>
+            php-statsd is a PHP client for Etsy's StatsD!
             
 Composer support.
  
@@ -475,6 +644,7 @@ Composer support.
         </author>
         <updated>2012-02-14T17:53:26+01:00</updated>
         <content>
+            php-statsd is a PHP client for Etsy's StatsD!
             
 Initial release!
  

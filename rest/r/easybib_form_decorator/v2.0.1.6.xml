@@ -16,7 +16,7 @@
 
  * Twitter Bootstrap Minimal 
 
-The default is Twitter Bootstrap.</d>
+The default is 'Twitter Bootstrap'.</d>
     <da>2011-10-12 16:23:41</da>
     <n>
 Automation of buildBootstrapErrorDecorators call and fixes for description,errors

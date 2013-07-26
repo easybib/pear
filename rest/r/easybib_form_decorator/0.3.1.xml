@@ -14,7 +14,7 @@
 
  * Twitter Bootstrap Minimal 
 
-The default is Twitter Bootstrap.</d>
+The default is 'Twitter Bootstrap'.</d>
     <da>2012-02-14 15:18:32</da>
     <n>
 Changes for MessageFormatter helper to work nice with Bootstrap 2

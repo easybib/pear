@@ -2,10 +2,10 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/easybib_form_decorator">EasyBib_Form_Decorator</p>
     <c>easybib.github.com/pear</c>
-    <v>0.3.1</v>
-    <a>0.3.1</a>
+    <v>0.4.1</v>
+    <a>0.4.1</a>
     <mp>5.2.0</mp>
-    <st>alpha</st>
+    <st>beta</st>
     <l>MIT</l>
     <m>mischosch</m>
     <s>A set of decorators for Zend_Form</s>
@@ -17,11 +17,12 @@
  * Twitter Bootstrap Minimal 
 
 The default is 'Twitter Bootstrap'.</d>
-    <da>2012-02-14 15:18:32</da>
+    <da>2013-07-26 15:59:36</da>
     <n>
-Changes for MessageFormatter helper to work nice with Bootstrap 2
+Small bugfixes:
+https://github.com/easybib/EasyBib_Form_Decorator/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed
  </n>
-    <f>25194</f>
-    <g>http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.3.1</g>
-    <x xlink:href="package.0.3.1.xml"/>
+    <f>26986</f>
+    <g>http://easybib.github.com/pear/get/EasyBib_Form_Decorator-0.4.1</g>
+    <x xlink:href="package.0.4.1.xml"/>
 </r>

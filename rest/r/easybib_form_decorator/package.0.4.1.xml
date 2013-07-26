@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>EasyBib_Form_Decorator</name>
+ <channel>easybib.github.com/pear</channel>
+ <summary>A set of decorators for Zend_Form</summary>
+ <description>EasyBib_Form Decorator supports four modes: 
+ * Table 
+ * Div 
+ * Twitter Bootstrap 
+
+ * Twitter Bootstrap Minimal 
+
+The default is &apos;Twitter Bootstrap&apos;.</description>
+ <lead>
+  <name>Michael Scholl</name>
+  <user>mischosch</user>
+  <email>michael@sch0ll.de</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@lagged.biz</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-07-26</date>
+ <time>15:59:36</time>
+ <version>
+  <release>0.4.1</release>
+  <api>0.4.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+Small bugfixes:
+https://github.com/easybib/EasyBib_Form_Decorator/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="e151e7050cd85aeeb16376f6fdb183dd" name="docs/ExampleController.php" role="doc" />
+   <file baseinstalldir="/" md5sum="0e8e90080cb100a13f7c099471c8fdf8" name="docs/ExampleForm.php" role="doc" />
+   <file baseinstalldir="/" md5sum="2f5c1d88d5f3de9552e97dae2ecf0417" name="examples/css/bootstrap-responsive.min.css" role="data" />
+   <file baseinstalldir="/" md5sum="18fff18bb1a7f44ed961b4e8ebbe3ef5" name="examples/css/bootstrap.min.css" role="data" />
+   <file baseinstalldir="/" md5sum="5e5896f93b2571b4b86c44f00897db7d" name="examples/DecoratorExample.php" role="php" />
+   <file baseinstalldir="/" md5sum="abdbb4ac237bfba3b2d4c006f67052bd" name="examples/ExampleForm.php" role="php" />
+   <file baseinstalldir="/" md5sum="ec2b403e2b444bb249e4cc9d99fca94d" name="examples/test.php" role="php" />
+   <file baseinstalldir="/" md5sum="df229b3325d55620f44680cd088e044c" name="library/EasyBib/Form/Decorator/BootstrapErrors.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9fd71a3178473f72d00062f04877ee5e" name="library/EasyBib/Form/Decorator/BootstrapTag.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="73ccc2fba13840c57a6849eb4dd06510" name="library/EasyBib/Form/SubForm/Decorator.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="17dc317ea29341ad84277475daa1fbdc" name="library/EasyBib/Form/Decorator.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bfb651dccedf1cdb0d3343e06541d1f4" name="library/EasyBib/View/Helper/MessagesFormatter.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3dba6c93c0b47d07f9a047b36e869992" name="library/EasyBib/Form.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9e1b51f562813dace752319ff26d673c" name="tests/bootstrap.php" role="test" />
+   <file baseinstalldir="/" md5sum="e5e6a8d7347741daa92288baa0041584" name="tests/DecoratorBootstrapTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="8d29d644b23f885abb188836d3cb38bf" name="tests/MessagesFormatterTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2f24f22772b73596cd0ba71520024a3a" name="tests/phpunit.xml" role="test" />
+   <file baseinstalldir="/" md5sum="9ba8d8421a827abbc6f0d5302f6c1b63" name="tests/TestForm.php" role="test" />
+   <file baseinstalldir="/" md5sum="32d16892d51be0886b8fb241b3d86827" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a7</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>ZF</name>
+    <channel>pear.zfcampus.org</channel>
+    <min>1.10.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="EasyBib/Form/Decorator/BootstrapErrors.php" name="library/EasyBib/Form/Decorator/BootstrapErrors.php" />
+   <install as="EasyBib/Form/Decorator/BootstrapTag.php" name="library/EasyBib/Form/Decorator/BootstrapTag.php" />
+   <install as="EasyBib/Form/Decorator.php" name="library/EasyBib/Form/Decorator.php" />
+   <install as="EasyBib/Form/SubForm/Decorator.php" name="library/EasyBib/Form/SubForm/Decorator.php" />
+   <install as="EasyBib/Form.php" name="library/EasyBib/Form.php" />
+   <install as="EasyBib/View/Helper/MessagesFormatter.php" name="library/EasyBib/View/Helper/MessagesFormatter.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Initial release (with small bugfix)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+detabed version
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.3</release>
+    <api>0.1.3</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-17</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Fix Submit/Cancel Button to support setAttrib(class)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.4</release>
+    <api>0.1.4</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-10-09</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Some Bugfixes
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.5</release>
+    <api>0.1.5</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-10-11</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Add MultiCheckbox Decorator style
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.6</release>
+    <api>0.1.6</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-10-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Automation of buildBootstrapErrorDecorators call and fixes for description,errors
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.7</release>
+    <api>0.1.7</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-10-28</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Multi Decorator usage for radio buttons
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.8</release>
+    <api>0.1.8</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-02-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Minor fixes
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-02-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Support for FileElement and ZendX_JQuery_Form_Element_UiWidget
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-02-12</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+First Bootstrap v2 support
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.1</release>
+    <api>0.3.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-02-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Changes for MessageFormatter helper to work nice with Bootstrap 2
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.2</release>
+    <api>0.3.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-04-10</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Add BOOTSTRAP_MINIMAL style for cleaner markup usage of Bootstrap 2
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-07-26</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Small bugfixes:
+https://github.com/easybib/EasyBib_Form_Decorator/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.1</release>
+    <api>0.4.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-07-26</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+Small bugfixes:
+https://github.com/easybib/EasyBib_Form_Decorator/pulls?direction=desc&amp;page=1&amp;sort=created&amp;state=closed
+   </notes>
+  </release>
+ </changelog>
+</package>

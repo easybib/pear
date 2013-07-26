@@ -44,6 +44,41 @@
     },
     "pear-easybib\/EasyBib_Form_Decorator": {
         "versions": {
+            "0.4.1": {
+                "name": "pear-easybib\/EasyBib_Form_Decorator",
+                "description": "A set of decorators for Zend_Form",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/easybib.github.com\/pear\/get\/EasyBib_Form_Decorator-0.4.1.tgz"
+                },
+                "version": "0.4.1",
+                "time": "2013-07-26T15:59:36+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-zfcampus\/ZF": ">=1.10.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Scholl",
+                        "email": "michael@sch0ll.de",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Till Klampaeckel",
+                        "email": "till@lagged.biz",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "examples",
+                        "3": "library\/EasyBib"
+                    }
+                }
+            },
             "0.3.2": {
                 "name": "pear-easybib\/EasyBib_Form_Decorator",
                 "description": "A set of decorators for Zend_Form",
