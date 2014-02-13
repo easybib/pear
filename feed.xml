@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://easybib.github.com/pear</id>
-    <updated>2013-07-26T18:01:34+02:00</updated>
+    <updated>2014-02-13T18:25:32+01:00</updated>
     <title>easybib's PEAR Channel Server Latest Releases</title>
     <link href="http://easybib.github.com/pear/feed.xml" rel="self" />
     <author>
